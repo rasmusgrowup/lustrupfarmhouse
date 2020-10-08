@@ -1,0 +1,7 @@
+'LustrupFarmhouse.Site:Document.Page':
+  superTypes:
+    'LustrupFarmhouse.Site:Document.AbstractPage': true
+  ui:
+    label: i18n
+    icon: icon-file-o
+    position: 100

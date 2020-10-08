@@ -1,0 +1,6 @@
+
+'Neos.Neos:Shortcut':
+  constraints:
+    nodeTypes:
+      'LustrupFarmhouse.Site:Document.HomePage': false
+      'LustrupFarmhouse.Site:Constraint.Document.Restricted': false

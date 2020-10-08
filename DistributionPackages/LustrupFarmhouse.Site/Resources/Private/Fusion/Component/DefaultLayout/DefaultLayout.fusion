@@ -1,0 +1,9 @@
+prototype(LustrupFarmhouse.Site:Component.DefaultLayout) < prototype(Neos.Fusion:Component) {
+    content = ''
+
+    renderer = afx`
+        <LustrupFarmhouse.Site:Component.Header />
+        {props.content}
+        <LustrupFarmhouse.Site:Component.Footer />
+    `
+}

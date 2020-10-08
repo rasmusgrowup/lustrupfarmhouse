@@ -1,0 +1,14 @@
+'LustrupFarmhouse.Site:Document.AbstractPage':
+  abstract: true
+  superTypes:
+    'Neos.Neos:Document': true
+  childNodes:
+    main:
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          'LustrupFarmhouse.Site:Constraint.Content.Restricted': false
+  constraints:
+    nodeTypes:
+      'LustrupFarmhouse.Site:Document.HomePage': false
+      'LustrupFarmhouse.Site:Constraint.Document.Restricted': false
