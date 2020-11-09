@@ -1,0 +1,49 @@
+p {
+    a, {
+        display: inline-block;
+        color: $black;
+        font-weight: 500;
+        margin: 0 auto;
+        width: fit-content;
+
+        &:after {
+            background-color: $black;
+            content: "";
+            display: block;
+            height: 2px;
+            width: 100%;
+        }
+
+        &:hover {
+            color: $orange;
+
+            &:after {
+                background-color: $orange;
+            }
+        }
+    }
+}
+
+.rooms-cta-link, {
+    display: block;
+    color: $black;
+    font-weight: 500;
+    margin: 0 auto;
+    width: fit-content;
+
+    &:after {
+        background-color: $black;
+        content: "";
+        display: block;
+        height: 2px;
+        width: 100%;
+    }
+
+    &:hover {
+        color: $orange;
+
+        &:after {
+            background-color: $orange;
+        }
+    }
+}

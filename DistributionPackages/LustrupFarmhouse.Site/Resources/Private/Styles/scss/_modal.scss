@@ -1,0 +1,91 @@
+.language-selector {
+    .language-modal {
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        display: none; /* Hidden by default */
+        height: 100vh; /* Full height */
+        left: 0;
+        overflow: auto; /* Enable scroll if needed */
+        position: fixed; /* Stay in place */
+        top: 0;
+        width: 100vw; /* Full width */
+        z-index: 1; /* Sit on top */
+
+        .modal-content {
+            background-color: #fefefe;
+            //border-radius: 4px;
+            left: 50%;
+            margin: 0 auto;
+            max-width: 420px;
+            padding: 40px 20px;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%; /* Could be more or less, depending on screen size */
+
+            .language-list, .modal-text {
+                text-align: center;
+            }
+
+            .modal-text {
+                margin-bottom: 20px;
+                p {
+                    font-size: 1.2em;
+                }
+            }
+
+            .language-list {
+                li {
+                    a {
+                        color: $black;
+                        font-size: 1.5em;
+                        font-weight: 400;
+
+                        &:hover {
+                            color: $orange;
+                        }
+                    }
+                }
+
+                .language-current {
+                    text-decoration: underline;
+                    a {
+                        color: $orange;
+                    }
+                }
+            }
+
+            /* The Close Button */
+            .close-modal {
+                color: #aaa;
+                font-size: 60px;
+                font-weight: 400;
+                line-height: .5;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+            }
+
+            .close-modal:hover,
+            .close-modal:focus {
+              color: black;
+              text-decoration: none;
+              cursor: pointer;
+            }
+        }
+    }
+
+    #openLanguageMenu {
+        background-color: transparent;
+        border: none;
+        color: $black;
+        font-family: $TOMMY-font;
+        font-weight: 500;
+        transition: $transition;
+
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+}

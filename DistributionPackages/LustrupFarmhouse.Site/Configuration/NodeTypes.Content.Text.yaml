@@ -7,12 +7,63 @@
     icon: icon-file-text
     position: 200
     inlineEditable: true
+    inspector:
+      groups:
+        text:
+          label: 'Text'
+          position: 500
+          icon: 'icon-text'
   properties:
     text:
       ui:
         inline:
           editorOptions:
             placeholder: '<p>Enter text here...</p>'
-            hyphens: true
+            autoparagraph: true
+            linking:
+              anchor: true
+              title: true
+              relNofollow: true
+              targetBlank: true
+            formatting:
+              strong: true
+              em: true
+              u: true
+              sub: true
+              sup: true
+              del: true
+              p: true
+              h1: true
+              h2: true
+              h3: true
+              h4: true
+              h5: true
+              h6: true
+              pre: true
+              underline: true
+              strikethrough: true
+              removeFormat: true
+              left: true
+              right: true
+              center: true
+              justify: true
+              table: true
+              ol: true
+              ul: true
+              a: true
       options:
-        silhouette: codeq.text.free
+        silhouette: text.free
+    float:
+      type: boolean
+      ui:
+        label: 'Float this text'
+        inspector:
+          group: 'text'
+          reloadIfChanged: true
+    color:
+      type: boolean
+      ui:
+        label: 'Make text color white'
+        inspector:
+          group: 'text'
+          reloadIfChanged: true

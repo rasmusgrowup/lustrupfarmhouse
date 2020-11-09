@@ -2,3 +2,48 @@
 # We do not need this, since we have no custom controllers
 'Neos.Neos:PluginView':
   abstract: true
+'Neos.NodeTypes.ColumnLayouts:TwoColumn':
+  properties:
+    layout:
+      ui:
+        inspector:
+          editorOptions:
+            values:
+              '60-40':
+                label: '60% / 40%'
+
+'Neos.NodeTypes.ColumnLayouts:Column':
+  childNodes:
+    column0:
+      type: 'Neos.Neos:ContentCollection'
+  properties:
+    id:
+      type: string
+      ui:
+        label: 'Section id'
+        inspector:
+          group: 'column'
+    bgnoise:
+      type: boolean
+      ui:
+        label: 'Add noise'
+        inspector:
+          group: 'column'
+          reloadIfChanged: true
+    bgcolor:
+      type: string
+      ui:
+        inspector:
+          group: 'column'
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          reloadIfChanged: true
+          editorOptions:
+            values:
+              'None':
+                label: 'None'
+              '#F6F1EB':
+                label: 'Sand'
+              '#E8E3DC':
+                label: 'Wet Sand'
+              '#D0C8B9':
+                label: 'Dark Sand'

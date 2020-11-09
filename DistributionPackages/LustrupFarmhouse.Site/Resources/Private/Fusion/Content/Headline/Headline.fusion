@@ -3,7 +3,9 @@ prototype(LustrupFarmhouse.Site:Content.Headline) < prototype(Neos.Neos:ContentC
         property = 'title'
     }
 
+    color = ${q(node).property('color') ? 'color:white' : ''}
+
     renderer = afx`
-        <div class="headline">{props.title}</div>
+        <div class="headline" style={props.color} data-scroll data-scroll-class='animate-headlines'>{props.title}</div>
     `
 }

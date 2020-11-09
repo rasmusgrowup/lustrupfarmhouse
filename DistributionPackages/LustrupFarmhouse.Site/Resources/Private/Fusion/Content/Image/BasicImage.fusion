@@ -24,6 +24,6 @@ prototype(LustrupFarmhouse.Site:Content.BasicImage) < prototype(Neos.Neos:Conten
     alternativeText = ${q(node).property('alternativeText')}
 
     renderer = afx`
-       <img src={props.src} alt={props.alternativeText} />
+       <img src={props.src} alt={props.alternativeText} class="container-image"/>
     `
 }

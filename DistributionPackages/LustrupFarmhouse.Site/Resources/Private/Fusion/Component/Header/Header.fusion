@@ -7,6 +7,30 @@ prototype(LustrupFarmhouse.Site:Component.Header) < prototype(Neos.Fusion:Compon
         maximumLevels = 2
     }
 
+    languageMenu = Neos.Neos:DimensionsMenu {
+        dimension = 'language'
+        attributes.class="language-list"
+        normal.attributes.class="language-item"
+        active.attributes.class="language-active"
+        current.attributes.class="language-current"
+    }
+
+    logoUri = Neos.Fusion:ResourceUri {
+    path = 'resource://LustrupFarmhouse.Site/Public/Frontend/assets/Lustrup-logo.svg'
+    }
+
+    imageUri = Neos.Fusion:ResourceUri {
+    path = 'resource://LustrupFarmhouse.Site/Public/Frontend/assets/Lustrup-farmhouse-sofaer.jpg'
+    }
+
+    faceUri = Neos.Fusion:ResourceUri {
+    path = 'resource://LustrupFarmhouse.Site/Public/Frontend/assets/facebook-icon.svg'
+    }
+
+    instaUri = Neos.Fusion:ResourceUri {
+    path = 'resource://LustrupFarmhouse.Site/Public/Frontend/assets/instagram-icon.svg'
+    }
+
     ##
     # If you want to use a default rendering for a menu, you can just use:
     ##
@@ -20,9 +44,56 @@ prototype(LustrupFarmhouse.Site:Component.Header) < prototype(Neos.Fusion:Compon
     ##
 
     renderer = afx`
-        <header class="main-header">
-            <a class="logo" href={props.homeLink}>BRAND NAME</a>
-            <LustrupFarmhouse.Site:Component.Header.MenuItemsRenderer items={props.menuItems} />
+        <header class="main-header" id="main-header" data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
+
+            <div class="menu">
+                <div class="navigation-content" id="menu">
+                    <LustrupFarmhouse.Site:Component.Header.MenuItemsRenderer items={props.menuItems} />
+                </div>
+                <div class="social-links">
+                    <a href="facebook.com/lustrupfarmhouse"><img src={props.faceUri} alt=""/>Facebook</a>
+                    <a href="instagram.com/lustrupfarmhouse"><img src={props.instaUri} alt=""/>Instagram</a>
+                </div>
+                <div class="navigation-image">
+                    <img src={props.imageUri} alt="" />
+                </div>
+            </div>
+
+            <div class="topbar" id="topbar">
+
+                <div class="navigation flex-equal">
+                    <div class="navigation-menu" id="menu-btn">
+                        <div class="navigation-btn">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="navigation-btn-text">
+                            <span>menu</span>
+                            <span>close</span>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="logo flex-equal" href={props.homeLink}><img src={props.logoUri} alt="" /></a>
+
+                <div class="options flex-equal">
+                    <div class="language-selector">
+                        <button type="button" name="button" id="openLanguageMenu">language</button>
+                        <div id="languageModal" class="language-modal">
+                            <div class="modal-content">
+                                <span class="close-modal">&times;</span>
+                                <div class="modal-text">
+                                    <p>Select your language</p>
+                                </div>
+                                {props.languageMenu}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="booking-cta">
+                        <span>book your stay</span>
+                    </div>
+                </div>
+            </div>
         </header>
     `
 

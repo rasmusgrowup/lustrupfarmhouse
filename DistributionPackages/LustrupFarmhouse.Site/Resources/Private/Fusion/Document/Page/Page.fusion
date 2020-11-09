@@ -5,7 +5,7 @@ prototype(LustrupFarmhouse.Site:Document.Page) < prototype(LustrupFarmhouse.Site
         }
 
         renderer = afx`
-            <main class="main">
+            <main class="main-content" id="fixed-target">
                 {props.main}
             </main>
         `

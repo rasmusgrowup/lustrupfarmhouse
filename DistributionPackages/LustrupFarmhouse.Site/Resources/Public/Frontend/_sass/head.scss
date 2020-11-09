@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "MADE-TOMMY";
+    font-weight: 400;
+    font-style: normal;
+    src: url('../fonts/MADE-TOMMY-L.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "MADE-TOMMY";
+    font-weight: 600;
+    font-style: normal;
+    src: url('../fonts/MADE-TOMMY-B.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "MADE-TOMMY";
+    font-weight: 500;
+    font-style: normal;
+    src: url('../fonts/MADE-TOMMY-M.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "MADE-MIRAGE";
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/MADE-Mirage-Medium.otf') format("opentype");
+}
+
+@font-face {
+    font-family: "MADE-MIRAGE";
+    font-weight: 700;
+    font-style: normal;
+    src: url('../fonts/MADE-Mirage-bold.otf') format("opentype");
+}
+
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+//  Variables
+$sand: #F6F1EB;
+$wet-sand: #E8E3DC;
+$dark-sand: #D0C8B9;
+$black: #292929;
+$black-hover: #383838;
+$black-lighter: #2d2d2d;
+$dark-grey: #292929;
+$grey: #f8f8f8;
+$darker-grey: #f2f2f2;
+$red: #FF6666;
+$green: #1DCC89;
+$family-sans-serif: "MADE", sans-serif !default;
+$font: 'MADE' !important;
+$TOMMY-font: 'MADE-TOMMY' !important;
+$navigation-font: 'MADE-MIRAGE' !important;
+$headline-font: 'MADE-MIRAGE' !important;
+$grey-dark: #292929;
+$font-color: $dark-grey;
+$fontsize-header: .8em;
+$primary: $black;
+$primary-invert: $grey;
+$mobile-padding: 0 1.5em;
+$desktop-padding: 0;
+$line-color: rgba(6, 6, 6, 0.33);
+$easing: cubic-bezier(0.83, 0, 0.17, 1);
+$mobile: 414px;
+$tablet: 768px;
+$dekstop: 769px;
+$size-p: clamp(16px, 1.25vw, 25px);
+$size-1: clamp(2.5em, 3.5vw, 60px) !important;
+$size-2: clamp(1.75em, 2.5vw, 45px) !important;
+$size-3: clamp(1.5em, 1.5vw, 35px) !important;
+$size-subtitle: clamp(20px, 1.25vw, 30px) !important;
+$size-title: clamp(30px, 4vw, 75px) !important;
+$column-content-width: clamp(320px, 25vw, 600px);
+$transition: 1.5s cubic-bezier(0.83, 0, 0.17, 1);
+$transition-delay: .1s;
+
+body, .smooth-container { scroll-behavior: smooth; }
+
+@import "../../../Private/Styles/scss/header";
+@import "../../../Private/Styles/scss/fonts";
+@import "../../../Private/Styles/scss/columns";
+@import "../../../Private/Styles/scss/links";
+@import "../../../Private/Styles/scss/text";
+@import "../../../Private/Styles/scss/modal";
+@import "../../../Private/Styles/scss/anchor";
+@import "../../../Private/Styles/scss/section";
+@import "../../../Private/Styles/scss/animations";
+@import "../../../Private/Styles/scss/general";
+@import "../../../Private/Styles/scss/locomotive";

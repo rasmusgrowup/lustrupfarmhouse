@@ -1,0 +1,44 @@
+body {
+    color: $font-color !important;
+    font-family: $TOMMY-font;
+    font-weight: 400 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $headline-font;
+    font-weight: $weight-bold !important;
+    line-height: 1;
+}
+
+h1 {
+    font-size: $size-1;
+}
+
+h2 {
+    font-size: $size-2;
+}
+
+h3 {
+    font-size: $size-3;
+}
+
+p {
+    font-size: $size-p;
+}
+
+.navigation-content {
+    font-family: $navigation-font;
+
+    ul {
+        li {
+            a {
+                color: $font-color;
+            }
+        }
+        .navigation-item--state-current {
+            a {
+                color: $orange;
+            }
+        }
+    }
+}

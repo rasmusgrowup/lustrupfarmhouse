@@ -1,0 +1,42 @@
+'LustrupFarmhouse.Site:Content.Card':
+  superTypes:
+    'Neos.Neos:Content': true
+    'LustrupFarmhouse.Site:Mixin.Image': true
+    'LustrupFarmhouse.Site:Content.AnchorLink': true
+    'LustrupFarmhouse.Site:Content.Text':
+  ui:
+    label: Card
+    icon: 'file-image'
+    position: 1000
+    inspector:
+      groups:
+        card:
+          label: 'Card'
+          icon: 'file-image'
+  properties:
+    text:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: '<p>Enter text here...</p>'
+            autoparagraph: true
+            formatting:
+              strong: true
+              em: true
+              u: true
+              sub: true
+              sup: true
+              del: true
+              p: true
+        options:
+          silhouette: text.free
+    title:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: '<p>Enter text here...</p>'
+            autoparagraph: true
+            formatting:
+              h4: true
+      options:
+        silhouette: 'codeq.text.title'

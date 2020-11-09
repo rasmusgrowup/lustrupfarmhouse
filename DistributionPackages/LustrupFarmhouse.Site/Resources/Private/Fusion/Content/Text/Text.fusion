@@ -2,8 +2,10 @@ prototype(LustrupFarmhouse.Site:Content.Text) < prototype(Neos.Neos:ContentCompo
     text = Neos.Neos:Editable {
         property = 'text'
     }
+    class = ${q(node).property('float') ? 'text float' : 'text'}
+    color = ${q(node).property('color') ? 'color:white' : ''}
 
     renderer = afx`
-        <div class="text">{props.text}</div>
+        <div class={props.class} style={props.color}>{props.text}</div>
     `
 }

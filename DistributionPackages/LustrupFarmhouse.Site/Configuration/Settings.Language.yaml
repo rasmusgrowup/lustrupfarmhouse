@@ -27,7 +27,7 @@ Neos:
             label: English
             values:
               - en
-            uriSegment: ''
+            uriSegment: 'en'
   Neos:
     userInterface:
       defaultLanguage: en

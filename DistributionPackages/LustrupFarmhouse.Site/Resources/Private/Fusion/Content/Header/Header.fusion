@@ -1,0 +1,15 @@
+prototype(LustrupFarmhouse.Site:Content.Header) < prototype(Neos.Neos:ContentComponent) {
+    title = Neos.Neos:Editable {
+        property = 'title'
+    }
+    subtitle = Neos.Neos:Editable {
+        property = 'subtitle'
+    }
+
+    renderer = afx`
+    <div class="text float">
+        <div class="floating-sub-headline">{props.subtitle}</div>
+        <div class="floating-headline">{props.title}</div>
+    </div>
+    `
+}

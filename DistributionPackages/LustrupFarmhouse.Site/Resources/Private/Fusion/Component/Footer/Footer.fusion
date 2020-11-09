@@ -1,5 +1,6 @@
 prototype(LustrupFarmhouse.Site:Component.Footer) < prototype(Neos.Neos:ContentComponent) {
     @context.node = ${site}
+    menuItems = Neos.Neos:MenuItems
     year = ${Date.format(Date.now(), 'Y')}
     footerInfo = Neos.Neos:Editable {
         node = ${site}
@@ -15,8 +16,38 @@ prototype(LustrupFarmhouse.Site:Component.Footer) < prototype(Neos.Neos:ContentC
 
     renderer = afx`
         <footer class="main-footer">
-            <div>{props.footerInfo}</div>
-            <div>&copy; {props.year}</div>
+            <div class="footer-content">
+                <div class="footer-navigation">
+                    <header>
+                        Navigation
+                    </header>
+                    <LustrupFarmhouse.Site:Component.Header.MenuItemsRenderer items={props.menuItems} />
+                </div>
+                <div class="footer-address">
+                    <header>Address</header>
+                    <ul>
+                        <li>Svengesvej 19</li>
+                        <li>DK-6760 Ribe</li>
+                        <li>Denmark</li>
+                        <li>CVR-nr.  DK-39248999</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <header>Contact us</header>
+                    <ul>
+                        <li><a href="tel:21992805">21992805</a></li>
+                        <li><a href="mailto:info@lustrupfarmhouse.dk">info@lustrupfarmhouse.dk</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div>{props.footerInfo}</div> -->
+            <div class="footer-copyright">
+                <ul>
+                    <li>&copy; {props.year}  Lustrup Farmhouse Aps</li>
+                    <li><a href="/terms">Terms & Condition</a></li>
+                    <li><a href="#">Manage Cookie Settings</a></li>
+                </ul>
+            </div>
             {props.footerItems}
         </footer>
     `

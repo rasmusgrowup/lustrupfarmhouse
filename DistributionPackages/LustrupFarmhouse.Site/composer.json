@@ -1,6 +1,6 @@
 {
     "name": "lustrupfarmhouse/site",
-    "description": "A Neos website",
+    "description": "NEOS CMS website for Lustrup Farmhouse",
     "type": "neos-site",
     "require": {
         "neos/neos": "^5.2",
@@ -24,7 +24,8 @@
         "sitegeist/silhouettes": "~1.1",
         "sitegeist/lazybones": "~2.1",
 
-        "neos/nodetypes-contentreferences": "*"
+        "neos/nodetypes-contentreferences": "*",
+        "neos/nodetypes-columnlayouts": "^5.3"
     },
     "extra": {
         "neos": {

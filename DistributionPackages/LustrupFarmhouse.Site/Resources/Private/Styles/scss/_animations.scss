@@ -1,0 +1,21 @@
+.headline {
+    overflow: hidden;
+
+    h1, h2 {
+        filter: blur(5px);
+        opacity: 0;
+        transform: translateY(120%);
+        transition: $transition;
+        //transition-delay: transform $transition-delay;
+    }
+}
+
+.animate-headlines {
+    h1, h2 {
+        filter: blur(0);
+        opacity: 1;
+        transform: translateY(0);
+        transition: $transition;
+        //transition-delay: transform $transition-delay;
+    }
+}

@@ -1,0 +1,44 @@
+'LustrupFarmhouse.Site:Content.CallToAction':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: Rooms Call To Action
+    icon: external-link-alt
+    position: 55
+    inlineEditable: true
+    reloadIfChanged: true
+    inspector:
+      groups:
+        link:
+          label: 'Link'
+          icon: external-link-alt
+  properties:
+    label:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: '<p>Enter link...</p>'
+            hyphens: true
+      options:
+        silhouette: text.free
+    link:
+      type: string
+      ui:
+        label: 'Link target'
+        inspector:
+          group: link
+          editor: Neos.Neos/Inspector/Editors/LinkEditor
+    info:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: 'Square metres + number of people sleeping'
+      options:
+        silhouette: text.free
+    title:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: 'Name the room'
+      options:
+        silhouette: text.free

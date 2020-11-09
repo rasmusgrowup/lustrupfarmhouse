@@ -2,8 +2,10 @@ prototype(LustrupFarmhouse.Site:Component.DefaultLayout) < prototype(Neos.Fusion
     content = ''
 
     renderer = afx`
+    <main data-scroll data-scroll-container>
         <LustrupFarmhouse.Site:Component.Header />
         {props.content}
         <LustrupFarmhouse.Site:Component.Footer />
+    </main>
     `
 }

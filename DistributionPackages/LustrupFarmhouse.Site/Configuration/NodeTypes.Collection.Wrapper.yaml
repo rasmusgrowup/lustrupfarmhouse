@@ -1,0 +1,21 @@
+'LustrupFarmhouse.Site:Collection.Wrapper':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.Neos:ContentCollection': true
+  ui:
+    group: 'structure'
+    label: Main wrapper
+    icon: 'square'
+    inlineEditable: true
+    inspector:
+      groups:
+        wrapper:
+          label: 'Wrapper settings'
+          icon: square
+  properties:
+    id:
+      type: string
+      ui:
+        label: 'Section id'
+        inspector:
+          group: 'wrapper'

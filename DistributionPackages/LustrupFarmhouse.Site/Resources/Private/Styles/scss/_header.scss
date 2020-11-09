@@ -1,0 +1,285 @@
+.hide {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  transition: $transition;
+  transition-delay: $transition-delay;
+}
+
+.show {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  transition: $transition;
+  transition-delay: $transition-delay;
+}
+
+.navigation-item {
+    line-height: 1.4;
+
+    &:hover {
+        a {
+            color: $orange;
+        }
+    }
+}
+
+.main-header {
+    //height: 100vh;
+    //background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+
+    .topbar {
+        align-items: center;
+        background-color: #FAFAFA;
+        display: flex;
+        font-family: $TOMMY-font;
+        font-size: $fontsize-header;
+        font-weight: 500;
+        justify-content: space-between;
+        padding: 15px 25px;
+        position: relative;
+        z-index: 10;
+
+        .navigation-menu {
+            align-items: center;
+            display: flex;
+            position: relative;
+            width: 100px;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            div {
+                margin-right: 15px;
+                text-transform: uppercase;
+            }
+
+            .navigation-btn {
+                span {
+                    background-color: black;
+                    display: block;
+                    height: 2px;
+                    width: 30px;
+                    margin: 4px 0;
+                    transform: rotateZ(0);
+                    transition: .1s;
+                    transition-timing-function: $easing;
+                }
+            }
+
+            .navigation-btn-text {
+                display: block;
+                height: 20px;
+                left: 40px;
+                overflow: hidden;
+                position: absolute;
+                span {
+                    display: block;
+                    transform: translateY(0);
+                    transition: $transition;
+                    transition-timing-function: $easing;
+                }
+            }
+        }
+
+        .flex-equal {
+            flex: 1;
+        }
+
+        .logo {
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 150px;
+            }
+        }
+
+        .options {
+            display: block;
+            text-align: right;
+
+            .language-selector, .booking-cta {
+                display: inline-block;
+                padding-left: 15px;
+            }
+
+            .booking-cta {
+                display: none;
+                line-height: 2;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .menu {
+        background-color: $sand;
+        display: flex;
+        height: 100vh;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        transform: translateY(-100%);
+        z-index: 9;
+        transition: transform $transition;
+        //transition-timing-function: $easing;
+
+        .navigation-content {
+            left: 4vw;
+            top: 50%;
+            position: absolute;
+            transform: translateY(-50%);
+            z-index: 2;
+
+            ul {
+                li {
+                    overflow: hidden;
+                    a {
+                        font-size: clamp(40px, 9vw, 70px);
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+
+        .social-links {
+            display: flex;
+            position: absolute;
+            bottom: 4vw;
+            left: 4vw;
+
+            a {
+                align-items: center;
+                display: flex;
+                color: $black;
+
+                &:first-child {
+                    margin-right: 20px;
+                }
+
+                &:hover {
+                    color: $orange;
+                }
+
+                img {
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .navigation-image {
+            display: none;
+        }
+    }
+
+    .menu-activated {
+        //background-color: $sand;
+        transform: translateY(0);
+        //transition: $transition;
+        transition-timing-function: $easing;
+        overflow-y: hidden;
+    }
+
+    .menu-animate {
+        transition: $transition;
+        transition-timing-function: $easing;
+        .navigation-btn-text {
+            span {
+                &:first-child {
+                    transform: translateY(-100%);
+                }
+                &:last-child {
+                    transform: translateY(-100%);
+                }
+            }
+        }
+        .navigation-btn {
+            span {
+                &:first-child {
+                    transform: rotateZ(45deg);
+                    margin: -1px;
+                }
+                &:last-child {
+                    transform: rotateZ(-45deg);
+                    margin: -1px;
+                }
+            }
+        }
+    }
+
+    aside {
+        display: none;
+    }
+
+    @media only screen and (min-width: $desktop) {
+        .topbar {
+            padding: 15px 4vw;
+            transition: $transition;
+
+            .options {
+                .language-selector, .booking-cta {
+                    display: inline-block;
+                    padding-left: 15px;
+                }
+
+                .booking-cta {
+                    text-decoration: underline;
+                    line-height: 2;
+                    position: relative;
+                }
+            }
+        }
+
+        .menu {
+            .navigation-image {
+                display: block;
+                height: 100vh;
+                right: 0;
+                top: 0;
+                position: absolute;
+                //transform: translateY(-50%);
+                width: 50vw;
+                z-index: 1;
+
+                img {
+                    height: 100%;
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+        }
+
+        aside {
+            align-items: center;
+            display: flex;
+            left: 1vw;
+            position:  fixed;
+            top: 50%;
+            transform: rotate(-90deg) translateY(-72px);
+            width: fit-content;
+
+            a {
+                align-items: center;
+                color: $black;
+                display: flex;
+                font-size: .9em;
+                z-index: 10;
+
+                img {
+                    margin-right: 5px;
+                }
+
+                &:first-child {
+                    margin-right: 15px;
+                }
+
+                &:hover {
+                    color: $orange;
+                }
+            }
+        }
+    }
+}

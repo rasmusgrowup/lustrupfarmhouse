@@ -1,0 +1,13 @@
+body {
+    background-color: #FAFAFA;
+    overflow: hidden;
+}
+
+.main-content {
+    padding-top: 75px;
+    position: relative;
+
+    @media only screen and (min-width: $tablet) {
+        padding-top: 95px;
+    }
+}

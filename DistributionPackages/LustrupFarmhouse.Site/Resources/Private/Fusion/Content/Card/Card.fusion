@@ -1,0 +1,45 @@
+prototype(LustrupFarmhouse.Site:Content.Card) < prototype(Neos.Neos:ContentComponent) {
+    title = Neos.Neos:Editable {
+        property = 'title'
+    }
+    text = Neos.Neos:Editable {
+        property = 'text'
+    }
+    label = Neos.Neos:Editable {
+        property = 'label'
+    }
+    link = ${q(node).property('link')}
+    linkTarget = ${q(node).property('linkTarget') ? '_blank' : '_self'}
+    renderAsLink = ${site.context.inBackend ? false : true}
+    src = Neos.Fusion:Case {
+        image {
+            condition = ${q(node).property('image') ? true : false}
+            renderer = Neos.Neos:ImageUri {
+                asset = ${q(node).property('image')}
+                maximumWidth = 400
+            }
+        }
+        dummyImage {
+            condition = ${site.context.inBackend}
+            renderer = Neos.Fusion:ResourceUri {
+                path = 'resource://Neos.Neos/Public/Images/dummy-image.svg'
+            }
+        }
+    }
+    alternativeText = ${q(node).property('alternativeText')}
+
+    renderer = afx`
+    <div class="card-wrapper">
+        <img src={props.src} alt={props.alternativeText} class="card-image"/>
+        <div class="card-content">
+            <div class="">
+                {props.title}
+            </div>
+            <div class="">
+                {props.text}
+            </div>
+            <Carbon.Link:Link link={props.link} additionalClass="card-link">{props.label}</Carbon.Link:Link>
+        </div>
+    </div>
+    `
+}

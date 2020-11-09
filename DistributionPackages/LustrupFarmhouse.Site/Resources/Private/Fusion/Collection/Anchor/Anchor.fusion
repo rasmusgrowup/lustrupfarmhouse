@@ -1,0 +1,14 @@
+prototype(LustrupFarmhouse.Site:Collection.Anchor) < prototype(Neos.Neos:ContentCollection) {
+    content = Neos.Neos:ContentCollection
+    @process.contentElementWrapping >
+
+    attributes = Neos.Fusion:DataStructure {
+        class = 'page-navigation'
+    }
+
+    renderer = afx`
+    <div>
+        <ts:render path="content" />
+    </div>
+    `
+}

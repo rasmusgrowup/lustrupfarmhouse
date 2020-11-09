@@ -9,7 +9,7 @@
         }
     },
     "require": {
-        "lustrupfarmhouse/site": "@dev"
+        "lustrupfarmhouse/site": "@dev",
     },
     "repositories": {
         "distribution": {

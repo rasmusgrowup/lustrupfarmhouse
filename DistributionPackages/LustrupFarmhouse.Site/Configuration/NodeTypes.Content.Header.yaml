@@ -1,0 +1,25 @@
+'LustrupFarmhouse.Site:Content.Header':
+  superTypes:
+    'Neos.Neos:Content': true
+  ui:
+    label: Floating Headline
+    icon: icon-header
+    position: 200
+    inlineEditable: true
+  properties:
+    title:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: '<p>Enter headline here...</p>'
+            autoparagraph: true
+      options:
+        silhouette: 'codeq.text.title'
+    subtitle:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: '<p>Enter sub headline here...</p>'
+            autoparagraph: true
+      options:
+        silhouette: 'codeq.text.title'

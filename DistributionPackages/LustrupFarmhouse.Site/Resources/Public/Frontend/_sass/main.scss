@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set our own initial variables
+$orange: #ff470f;
+$earth: #B24C16;
+$family-sans-serif: "MADE", sans-serif !default;
+$font: 'MADE' !important;
+$TOMMY-font: 'MADE-TOMMY' !important;
+$navigation-font: 'MADE-MIRAGE' !important;
+$headline-font: 'MADE-MIRAGE' !important;
+$family-monospace: monospace !default
+$render-mode: optimizeLegibility !default
+$mobile: 414px;
+$tablet: 768px;
+
+$primary: $orange;
+
+// 3. Import the rest of Bulma
+@import "../node_modules/bulma/bulma";
+
+@import "../../../Private/Styles/scss/footer";
+@import "../../../Private/Styles/scss/cta";
+@import "../../../Private/Styles/scss/wrapper";
+@import "../../../Private/Styles/scss/card";

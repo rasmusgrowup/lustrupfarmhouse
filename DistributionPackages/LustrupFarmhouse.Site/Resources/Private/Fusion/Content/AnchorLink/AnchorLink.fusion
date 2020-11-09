@@ -1,0 +1,14 @@
+prototype(LustrupFarmhouse.Site:Content.AnchorLink) < prototype(Neos.Neos:ContentComponent) {
+    label = Neos.Neos:Editable {
+        property = 'label'
+    }
+    link = ${q(node).property('link')}
+    linkTarget = ${q(node).property('linkTarget') ? '_blank' : '_self'}
+    renderAsLink = ${site.context.inBackend ? false : true}
+
+    renderer = afx`
+        <div class="anchor-container" role="button" data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
+            <Carbon.Link:Link link={props.link} additionalClass="reg-button">{props.label}</Carbon.Link:Link>
+        </div>
+    `
+}

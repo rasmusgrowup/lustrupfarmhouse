@@ -1,0 +1,28 @@
+.page-navigation {
+    background: white;
+    bottom: 0;
+    padding: 15px;
+    position: fixed;
+    width: 100vw;
+    z-index: 9;
+
+    .neos-contentcollection {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        .anchor-container {
+            padding: 0 20px;
+
+            a {
+                color: $black;
+                font-size: .9em;
+                font-weight: 500;
+
+                &:hover {
+                    color: $orange;
+                }
+            }
+        }
+    }
+}

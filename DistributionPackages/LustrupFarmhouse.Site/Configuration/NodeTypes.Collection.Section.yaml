@@ -1,0 +1,21 @@
+'LustrupFarmhouse.Site:Collection.Section':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.Neos:ContentCollection': true
+  ui:
+    group: 'structure'
+    label: Section
+    icon: 'square'
+    inlineEditable: true
+    inspector:
+      groups:
+        section:
+          label: 'Section'
+          icon: square
+  properties:
+    id:
+      type: string
+      ui:
+        label: 'Section id'
+        inspector:
+          group: 'section'

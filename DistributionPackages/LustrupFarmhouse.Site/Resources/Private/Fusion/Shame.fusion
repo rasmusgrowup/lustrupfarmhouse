@@ -2,3 +2,17 @@
 # Hacky or otherwise shamefull code goes here.
 # This makes later debugging and refactoring easier.
 ##
+prototype(Neos.NodeTypes.ColumnLayouts:MultiColumn) < prototype(Neos.Neos:Content) {
+    bgcolor = ${q(node).property('bgcolor')}
+    bgnoise = ${q(node).property('bgnoise')}
+    attributes.style = ${'background-color:' + q(node).property('bgcolor')}
+    attributes = Neos.Fusion:Attributes {
+        class = Neos.Fusion:DataStructure {
+            class1 = ${'column-wrapper columns-' + q(node).property('layout')}
+            class2 = ${q(node).property('bgnoise') ? 'bg-noise' : ''}
+        }
+        id = Neos.Neos:Editable {
+            property = 'id'
+        }
+    }
+}
