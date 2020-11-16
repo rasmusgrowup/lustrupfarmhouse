@@ -117,6 +117,51 @@ img {
     }
 }
 
+.columns-25-50-25 {
+    .column {
+        display: block;
+    }
+
+    @media only screen and (min-width: $tablet) {
+        align-items: stretch;
+        display: flex !important;
+        flex-wrap: wrap;
+
+        img {
+            display: block;
+            height: 100%;
+        }
+
+        .column {
+            flex: 3;
+
+            &:first-child {
+                flex: 1;
+                margin-right: .125em;
+            }
+
+            &:last-child {
+                flex: 1;
+                margin-left: .125em;
+            }
+        }
+    }
+
+    @media only screen and (min-width: $desktop) {
+        .column {
+            flex: 3;
+
+            &:first-child {
+                flex: 2;
+            }
+
+            &:last-child {
+                flex: 2;
+            }
+        }
+    }
+}
+
 .columns-25-25-25-25 {
     @media only screen and (min-width: $tablet) {
         align-items: flex-start;
