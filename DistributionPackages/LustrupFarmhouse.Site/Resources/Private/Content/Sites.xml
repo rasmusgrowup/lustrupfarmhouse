@@ -1739,16 +1739,16 @@
          <properties/>
         </variant>
         <node identifier="c6136792-b87d-4224-8171-9f5259fd4bd4" nodeName="node-bf50n9yp80b7m">
-         <variant sortingIndex="338" workspace="live" nodeType="Neos.NodeTypes.ColumnLayouts:ThreeColumn" version="2" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="338" workspace="live" nodeType="Neos.NodeTypes.ColumnLayouts:ThreeColumn" version="3" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2020-11-16T19:13:37+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T19:14:10+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T19:14:09+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T20:14:33+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T20:14:33+01:00</lastPublicationDateTime>
           <properties>
-           <layout __type="string">33-33-33</layout>
+           <layout __type="string">25-50-25</layout>
           </properties>
          </variant>
          <node identifier="ea20004c-4fb6-485d-86dc-bdb84fa03f83" nodeName="column0">
@@ -1819,16 +1819,16 @@
        </node>
       </node>
       <node identifier="d40e316a-bffd-4286-bb00-dbf100242aee" nodeName="node-rtb1p7tqfrk1q">
-       <variant sortingIndex="257" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateOne" version="9" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="257" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateOne" version="10" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>da</language>
         </dimensions>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2020-11-16T19:03:13+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T19:10:05+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T19:10:05+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T20:15:41+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T20:15:41+01:00</lastPublicationDateTime>
         <properties>
-         <text __type="string">&lt;p&gt;From the beginning we know that we wanted to minimise our impact on the environment and make the development as environmentally sustainable as possible by using the natural resources the countryside provided.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;We therefore retained as much of the original structure of the barn as we could and at the same time incorporated solar panels for electricity and a ground source under floor heating system. &amp;nbsp;We also wanted to encourage our guests to use our recycling facilities.&amp;nbsp;&lt;/p&gt;</text>
+         <text __type="string">&lt;p&gt;From the beginning we know that we wanted to minimise our impact on the environment and make the development as environmentally sustainable as possible by using the natural resources the countryside provided.&lt;/p&gt;</text>
          <image __type="object" __identifier="2c8e9fcd-731a-41df-b65c-cb7c992353ce" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;2c8e9fcd-731a-41df-b65c-cb7c992353ce&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;diggin.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;50ea72060dd275c405638428b9e6b9262e2e61e7&quot;,&quot;hash&quot;:&quot;50ea72060dd275c405638428b9e6b9262e2e61e7&quot;,&quot;__identity&quot;:&quot;6bb3558e-d061-462e-baec-31ffe2074e62&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
          <label __type="string"></label>
          <title __type="string">&lt;h2&gt;Let’s make it environmentally sustainable.&lt;/h2&gt;</title>
@@ -1855,19 +1855,19 @@
        </variant>
       </node>
       <node identifier="d55ca71e-38d5-46cc-aeac-5f84cb27baa3" nodeName="node-yv0qgrazau7ap">
-       <variant sortingIndex="264" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateTwo" version="21" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="264" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateTwo" version="23" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>da</language>
         </dimensions>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2020-11-16T18:57:00+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T19:10:44+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T19:10:44+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T20:16:01+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T20:16:00+01:00</lastPublicationDateTime>
         <properties>
-         <text __type="string">&lt;p&gt;The heat comes directly from our surroundings. It makes perfect sense.&lt;/p&gt;</text>
+         <text __type="string">&lt;p&gt;We therefore retained as much of the original structure of the barn as we could and at the same time incorporated solar panels for electricity and a ground source under floor heating system. &amp;nbsp;We also wanted to encourage our guests to use our recycling facilities.&amp;nbsp;&lt;/p&gt;</text>
          <image __type="object" __identifier="6915f5f1-3651-4a10-818a-88e7014a0267" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;6915f5f1-3651-4a10-818a-88e7014a0267&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;solar panels.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;6833c68ac8bfc4d0334200e20a002ba75a9a1f9f&quot;,&quot;hash&quot;:&quot;6833c68ac8bfc4d0334200e20a002ba75a9a1f9f&quot;,&quot;__identity&quot;:&quot;522a0316-47e4-4de2-a641-f1a63c15a80f&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
          <label __type="string"></label>
-         <title __type="string">&lt;h2&gt;The farmhouse has under floor heating through out using a ground source heating system and solar panels.&lt;/h2&gt;</title>
+         <title __type="string">&lt;h2&gt;Solar Panels &amp;amp; Ground Heating&lt;/h2&gt;</title>
         </properties>
        </variant>
       </node>
@@ -1894,16 +1894,16 @@
          <properties/>
         </variant>
         <node identifier="afd39a8f-19e9-4c94-b17e-a3ff2de80033" nodeName="node-bf50n9yp80b7m">
-         <variant sortingIndex="338" workspace="live" nodeType="Neos.NodeTypes.ColumnLayouts:ThreeColumn" version="3" removed="" hidden="" hiddenInIndex="">
+         <variant sortingIndex="338" workspace="live" nodeType="Neos.NodeTypes.ColumnLayouts:ThreeColumn" version="4" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
           <creationDateTime __type="object" __classname="DateTime">2020-11-16T17:59:52+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T18:05:56+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T18:05:56+01:00</lastPublicationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T20:09:08+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T20:09:08+01:00</lastPublicationDateTime>
           <properties>
-           <layout __type="string">33-33-33</layout>
+           <layout __type="string">25-50-25</layout>
           </properties>
          </variant>
          <node identifier="70b2db8d-df19-4367-9eec-726c558cc570" nodeName="column0">
