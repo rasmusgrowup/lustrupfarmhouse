@@ -33,5 +33,5 @@
                 label: 'Winter Blue'
               '#292929':
                 label: 'Dark Grey'
-              'black':
+              '#0F0F0F':
                 label: 'Black'

@@ -1,6 +1,11 @@
 //Columns layout scss
 $column-breakpoint: 415px;
 
+img {
+    display: block;
+    margin-bottom: .25em;
+}
+
 .column-wrapper {
     display: block;
     margin-bottom: .25em;
@@ -10,6 +15,7 @@ $column-breakpoint: 415px;
         position: relative;
 
         img {
+            //height: 100%;
             width: 100%;
         }
     }
@@ -27,15 +33,85 @@ $column-breakpoint: 415px;
 }
 
 .columns-50-50 {
+    .column {
+        display: block;
+        margin-bottom: .25em;
+
+        img {
+            margin-bottom: 0;
+        }
+    }
     @media only screen and (min-width: $tablet) {
-        align-items: flex-start;
+        align-items: stretch;
         display: flex !important;
         flex-wrap: wrap;
         .column {
             flex: 1;
 
             &:first-child {
-                margin-right: .25em;
+                margin-right: .125em;
+            }
+
+            &:last-child {
+                margin-left: .125em;
+            }
+        }
+    }
+}
+
+.columns-33-66 {
+    .column {
+        display: block;
+        margin-bottom: .25em;
+    }
+    @media only screen and (min-width: $tablet) {
+        align-items: stretch;
+        display: flex !important;
+        flex-wrap: wrap;
+        .column {
+
+            img {
+                display: block;
+                height: 100%;
+            }
+
+            &:first-child {
+                flex: 2;
+                margin-right: .125em;
+            }
+
+            &:last-child {
+                flex: 3;
+                margin-left: .125em;
+            }
+        }
+    }
+}
+
+.columns-66-33 {
+    .column {
+        display: block;
+        margin-bottom: .25em;
+    }
+    @media only screen and (min-width: $tablet) {
+        align-items: stretch;
+        display: flex !important;
+        flex-wrap: wrap;
+        .column {
+
+            img {
+                display: block;
+                height: 100%;
+            }
+
+            &:first-child {
+                flex: 3;
+                margin-right: .125em;
+            }
+
+            &:last-child {
+                flex: 2;
+                margin-left: .125em;
             }
         }
     }
