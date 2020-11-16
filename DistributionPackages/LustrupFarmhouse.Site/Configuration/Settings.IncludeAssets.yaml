@@ -1,6 +1,7 @@
 
 Carbon:
   IncludeAssets:
+    GoogleFonts: 'EB+Garamond:wght@400;500;600;700&display=swap&family=Roboto:wght@300;400;700&display=swap'
     Packages:
       aa_Theme:
         Path:
@@ -15,11 +16,11 @@ Carbon:
           Head:
             - head.css[async]
             - main.css[defer]
+            - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js
+            - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js
           Body:
             - main.js
             - lazysizes.min.js
-          #  - scrolltosmooth.min.js
-            - locomotive-scroll.min.js
       ##
       # Sitegeist.Lazybones required lazysizes, we recommend to include lazysizes javascript
       # from https://github.com/aFarkas/lazysizes into your own fe-build and remove this section

@@ -1,0 +1,37 @@
+'LustrupFarmhouse.Site:Mixin.Template':
+  superTypes:
+    'Neos.Neos:Content': true
+  properties:
+    whiteText:
+      type: boolean
+      ui:
+        label: 'Make text white?'
+        inspector:
+          group: 'image'
+          reloadIfChanged: true
+    bgcolor:
+      type: string
+      ui:
+        label: 'Choose a background-color'
+        inspector:
+          group: 'image'
+          editor: 'Neos.Neos/Inspector/Editors/SelectBoxEditor'
+          reloadIfChanged: true
+          editorOptions:
+            values:
+              'None':
+                label: 'None'
+              '#F6F1EB':
+                label: 'Sand'
+              '#E8E3DC':
+                label: 'Wet Sand'
+              '#D0C8B9':
+                label: 'Dark Sand'
+              '#DEE8EB':
+                label: 'Light Blue'
+              '#3C4445':
+                label: 'Winter Blue'
+              '#292929':
+                label: 'Dark Grey'
+              'black':
+                label: 'Black'

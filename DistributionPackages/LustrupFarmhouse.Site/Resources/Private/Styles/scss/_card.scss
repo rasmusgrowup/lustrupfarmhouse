@@ -2,13 +2,20 @@
     .card-wrapper {
         display: block;
         margin: 0 auto;
-        padding: 15px;
+        //padding: 15px;
 
-        img {
-            height: 22vw !important;
-            min-height: auto !important;
-            object-fit: cover;
-            width: 100% !important;
+        .card-image {
+            display: block;
+            padding-top: 100%;
+
+            img {
+                height: 100%;
+                left:0;
+                object-fit: cover;
+                position: absolute;
+                top:0;
+                width: 100% !important;
+            }
         }
 
         .card-content {
@@ -22,14 +29,14 @@
             h4 {
                 font-size: 1.25em;
                 //font-family: $TOMMY-font;
-                margin-bottom: 7px;
+                margin-bottom: .75em;
             }
 
             .card-link {
                 display: inline-block;
                 color: $black;
                 font-weight: 500;
-                margin: 7px auto;
+                margin: .75em auto;
                 width: fit-content;
 
                 p {

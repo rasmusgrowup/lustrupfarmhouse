@@ -1,0 +1,33 @@
+.floating-header {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    div {
+        p {
+            color: white;
+            text-align: center;
+            line-height: 1;
+        }
+    }
+
+    .floating-sub-headline {
+
+        p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 1em;
+            font-weight: 600;
+            letter-spacing: 5px;
+        }
+    }
+
+    .floating-headline  {
+
+        p {
+            font-size: 5em;
+            font-weight: 700;
+            font-family: 'EB Garamond', sans-serif;
+        }
+    }
+}

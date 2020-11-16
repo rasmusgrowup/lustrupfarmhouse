@@ -30,9 +30,16 @@
     width: 100%;
     z-index: 99;
 
+    .info-bar {
+        background-color: $orange;
+        text-align: center;
+        padding: .5em;
+        z-index: 10;
+    }
+
     .topbar {
         align-items: center;
-        background-color: #FAFAFA;
+        background-color: white;
         display: flex;
         font-family: $TOMMY-font;
         font-size: $fontsize-header;
@@ -109,7 +116,7 @@
             .booking-cta {
                 display: none;
                 line-height: 2;
-                text-decoration: underline;
+                //text-decoration: underline;
             }
         }
     }
@@ -226,9 +233,39 @@
                 }
 
                 .booking-cta {
-                    text-decoration: underline;
+                    //text-decoration: underline;
                     line-height: 2;
                     position: relative;
+
+                    a {
+                        display: inline-block;
+                        color: $black;
+                        font-weight: 700;
+                        line-height: 1.75;
+                        //margin-top: 1em;
+                        transition: .25s;
+
+                        &:after {
+                            background-color: $black;
+                            display: block;
+                            content: '';
+                            height: 2px;
+                            width: 100%;
+                            transition: .25s;
+                        }
+
+                        &:hover {
+                            color: $orange;
+
+                                &:after {
+                                background-color: $orange;
+                                display: block;
+                                content: '';
+                                height: 2px;
+                                width: 100%;
+                            }
+                        }
+                    }
                 }
             }
         }

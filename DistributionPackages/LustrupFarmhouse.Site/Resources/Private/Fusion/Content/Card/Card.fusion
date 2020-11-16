@@ -30,7 +30,9 @@ prototype(LustrupFarmhouse.Site:Content.Card) < prototype(Neos.Neos:ContentCompo
 
     renderer = afx`
     <div class="card-wrapper">
-        <img src={props.src} alt={props.alternativeText} class="card-image"/>
+        <div class="card-image">
+            <img src={props.src} alt={props.alternativeText}/>
+        </div>
         <div class="card-content">
             <div class="">
                 {props.title}

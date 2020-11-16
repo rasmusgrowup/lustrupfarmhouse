@@ -1,0 +1,102 @@
+'LustrupFarmhouse.Site:Templates.TemplateOne':
+  superTypes:
+    'Neos.Neos:Content': true
+    'LustrupFarmhouse.Site:Mixin.Image': true
+    'LustrupFarmhouse.Site:Mixin.Template': true
+  ui:
+    group: 'structure'
+    label: Template 1
+    icon: icon-pager
+    position: 210
+    inlineEditable: true
+    reloadIfChanged: true
+  properties:
+    text:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: '<p>Enter text here...</p>'
+            autoparagraph: true
+            linking:
+              anchor: true
+              title: true
+              relNofollow: true
+              targetBlank: true
+            formatting:
+              strong: true
+              em: true
+              u: true
+              sub: true
+              sup: true
+              del: true
+              p: true
+              h1: true
+              h2: true
+              h3: true
+              h4: true
+              h5: true
+              h6: true
+              pre: true
+              underline: true
+              strikethrough: true
+              removeFormat: true
+              left: true
+              right: true
+              center: true
+              justify: true
+              table: true
+              ol: true
+              ul: true
+              a: true
+      options:
+        silhouette: text.free
+    title:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: '<p>Enter text here...</p>'
+            autoparagraph: true
+            linking:
+              anchor: true
+              title: true
+              relNofollow: true
+              targetBlank: true
+            formatting:
+              strong: true
+              em: true
+              h1: true
+              h2: true
+              h3: true
+              h4: true
+              h5: true
+              h6: true
+              pre: true
+              underline: true
+              strikethrough: true
+              removeFormat: true
+              left: true
+              right: true
+              center: true
+              justify: true
+              table: true
+              ol: true
+              ul: true
+              a: true
+      options:
+        silhouette: 'codeq.text.title'
+    label:
+      ui:
+        inline:
+          editorOptions:
+            placeholder: '<p>Enter link...</p>'
+            hyphens: true
+      options:
+        silhouette: text.free
+    link:
+      type: string
+      reloadIfChanged: true
+      ui:
+        label: 'Link target'
+        inspector:
+          group: image
+          editor: Neos.Neos/Inspector/Editors/LinkEditor

@@ -45,7 +45,11 @@ prototype(LustrupFarmhouse.Site:Component.Header) < prototype(Neos.Fusion:Compon
 
     renderer = afx`
         <header class="main-header" id="main-header" data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-
+<!--
+            <div class="info-bar">
+                Covid-19 information: we take every precaution to ensure you have a safe stay
+            </div>
+-->
             <div class="menu">
                 <div class="navigation-content" id="menu">
                     <LustrupFarmhouse.Site:Component.Header.MenuItemsRenderer items={props.menuItems} />
@@ -90,7 +94,7 @@ prototype(LustrupFarmhouse.Site:Component.Header) < prototype(Neos.Fusion:Compon
                         </div>
                     </div>
                     <div class="booking-cta">
-                        <span>book your stay</span>
+                        <a href="https://booking.octopuspms.com/RoomBook?Code=c8ba02e5-da5a-4b41-8626-37cb4a483e2e" target="_blank"><span>Book your stay</span></a>
                     </div>
                 </div>
             </div>

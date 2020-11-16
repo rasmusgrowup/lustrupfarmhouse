@@ -1,7 +1,17 @@
 .main-wrapper {
-    padding: 6vw 4vw;
+    padding: 2em 1em;
+    margin: 0 auto;
+    max-width: 1700px;
 
-    .column-wrapper {
-        height: auto;
+    @media only screen and (min-width: 769px) {
+        padding: 3em;
+    }
+
+    .column {
+        padding: 0;
+
+        @media only screen and (min-width: 769px) {
+            padding: 1em;
+        }
     }
 }

@@ -1,0 +1,60 @@
+prototype(LustrupFarmhouse.Site:Templates.TemplateOne) < prototype(Neos.Neos:ContentComponent) {
+
+    src = Neos.Fusion:Case {
+        image {
+            condition = ${q(node).property('image') ? true : false}
+            renderer = Sitegeist.Kaleidoscope:AssetImageSource {
+                asset = ${q(node).property('image')}
+            }
+        }
+        dummyImage {
+            condition = ${site.context.inBackend}
+            renderer = Sitegeist.Kaleidoscope:DummyImageSource
+        }
+    }
+    alternativeText = ${q(node).property('alternativeText')}
+
+    title = Neos.Neos:Editable {
+        property = 'title'
+    }
+
+    text = Neos.Neos:Editable {
+        property = 'text'
+        attributes.class = 'aos'
+    }
+
+    whiteText = ${q(node).property('whiteText') ? 'white-text' : ''}
+    bgcolor = ${'background-color:' + q(node).property('bgcolor')}
+
+    label = Neos.Neos:Editable {
+        property = 'label'
+    }
+    link = ${q(node).property('link')}
+    linkTarget = ${q(node).property('linkTarget') ? '_blank' : '_self'}
+    renderAsLink = ${site.context.inBackend ? false : true}
+
+
+renderer = afx`
+        <section class="templateOne">
+            <div class="templateOne-image">
+                <Sitegeist.Lazybones:Image
+                    class="container-image"
+                    lazy={true}
+                    lazyWidth={200}
+                    imageSource={props.src}
+                    srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
+                    sizes={props.sizes}
+                    alt={props.alternativeText}
+                    />
+            </div>
+            <div class="templateOne-column" style={props.bgcolor}>
+                <div
+                    class={"column-content aos" + (props.whiteText ? ' ' + props.whiteText : '')} >
+                    {props.title}
+                    {props.text}
+                    <Carbon.Link:Link link={props.link} additionalClass="reg-button">{props.label}</Carbon.Link:Link>
+                </div>
+            </div>
+        </section>
+    `
+}

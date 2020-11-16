@@ -1,4 +1,4 @@
-prototype(LustrupFarmhouse.Site:Content.Header) < prototype(Neos.Neos:ContentComponent) {
+prototype(LustrupFarmhouse.Site:Content.Floating) < prototype(Neos.Neos:ContentComponent) {
     title = Neos.Neos:Editable {
         property = 'title'
     }
@@ -7,7 +7,7 @@ prototype(LustrupFarmhouse.Site:Content.Header) < prototype(Neos.Neos:ContentCom
     }
 
     renderer = afx`
-    <div class="text float">
+    <div class="floating-header">
         <div class="floating-sub-headline">{props.subtitle}</div>
         <div class="floating-headline">{props.title}</div>
     </div>

@@ -1,10 +1,10 @@
-'LustrupFarmhouse.Site:Content.Header':
+'LustrupFarmhouse.Site:Content.Floating':
   superTypes:
     'Neos.Neos:Content': true
   ui:
     label: Floating Headline
     icon: icon-header
-    position: 200
+    position: 400
     inlineEditable: true
   properties:
     title:

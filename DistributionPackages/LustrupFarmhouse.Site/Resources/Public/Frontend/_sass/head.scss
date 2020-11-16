@@ -49,11 +49,11 @@ $grey: #f8f8f8;
 $darker-grey: #f2f2f2;
 $red: #FF6666;
 $green: #1DCC89;
-$family-sans-serif: "MADE", sans-serif !default;
-$font: 'MADE' !important;
-$TOMMY-font: 'MADE-TOMMY' !important;
-$navigation-font: 'MADE-MIRAGE' !important;
-$headline-font: 'MADE-MIRAGE' !important;
+$family-sans-serif: 'Roboto', sans-serif !default;
+$font: 'Roboto', sans-serif !important;
+$TOMMY-font: 'Roboto', sans-serif !important;
+$navigation-font: 'EB Garamond', serif !important;
+$headline-font: 'EB Garamond', serif !important;
 $grey-dark: #292929;
 $font-color: $dark-grey;
 $fontsize-header: .8em;
@@ -73,7 +73,7 @@ $size-3: clamp(1.5em, 1.5vw, 35px) !important;
 $size-subtitle: clamp(20px, 1.25vw, 30px) !important;
 $size-title: clamp(30px, 4vw, 75px) !important;
 $column-content-width: clamp(320px, 25vw, 600px);
-$transition: 1.5s cubic-bezier(0.83, 0, 0.17, 1);
+$transition: 1s cubic-bezier(0.83, 0, 0.17, 1);
 $transition-delay: .1s;
 
 body, .smooth-container { scroll-behavior: smooth; }
@@ -88,4 +88,4 @@ body, .smooth-container { scroll-behavior: smooth; }
 @import "../../../Private/Styles/scss/section";
 @import "../../../Private/Styles/scss/animations";
 @import "../../../Private/Styles/scss/general";
-@import "../../../Private/Styles/scss/locomotive";
+@import "../../../Private/Styles/scss/templates"

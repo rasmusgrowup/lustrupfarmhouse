@@ -1,32 +1,13 @@
-.float {
-    display: block;
-    left: 50%;
-    position: absolute;
-    top: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    width: 100%;
-
-    .floating-headline, .floating-sub-headline {
-        color: white;
-    }
-
-    .floating-headline {
-        font-size: $size-title;
-        font-weight: 600;
-        text-transform: uppercase;
-    }
-
-    .floating-sub-headline {
-        font-size: $size-subtitle;
-        font-weight: 500;
-        letter-spacing: 8px;
-        text-transform: uppercase;
-    }
-}
-
 .text, .headline {
-    padding: 0 4vw;
+    //padding: 0 4vw;
     max-width: 1080px;
     margin: 0 auto;
+}
+
+.headline {
+    padding-bottom: 2em;
+}
+
+h3 {
+    line-height: 1.25;
 }

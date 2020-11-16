@@ -1,5 +1,6 @@
 'use strict';
 
+// Menu javascript
 var el = document.getElementById('menu-btn');
 el.addEventListener('click', function () {
   document.getElementsByClassName('menu')[0].classList.toggle('menu-activated');
@@ -37,23 +38,6 @@ window.onclick = function (event) {
   }
 };
 
-//SmoothScroll
-//document.addEventListener('DOMContentLoaded', () => {
-//	let smoothScroll = new scrollToSmooth('a', {
-//		targetAttribute: 'href',
-//		duration: 1000,
-//		durationRelative: false,
-//		durationMin: false,
-//		durationMax: false,
-//		easing: 'easeInOutCubic',
-//		onScrollStart: (data) => { console.log(data); },
-//		onScrollUpdate: (data) => { console.log(data); },
-//		onScrollEnd: (data) => { console.log(data); },
-//		fixedHeader: '#main-header'
-//	})
-//	smoothScroll.init();
-//});
-
 // Show & Hide menu on scroll down / up
 var new_scroll_position = 0;
 var last_scroll_position;
@@ -78,12 +62,21 @@ window.addEventListener('scroll', function (e) {
   new_scroll_position = last_scroll_position;
 });
 
-//locomotive scrollingClass
-document.addEventListener('DOMContentLoaded', function () {
-  var scroll = new LocomotiveScroll({
-    el: document.querySelector('[data-scroll-container]')
-    //    smooth: true
-    //
-    //
+// Animate on scroll
+var animateIn = document.querySelectorAll('.aos');
+
+animateIn.forEach(function (elem) {
+  gsap.from(elem, {
+    scrollTrigger: {
+      trigger: elem,
+      toggleActions: "play none play reverse",
+      //markers: true,
+      start: 'top bottom'
+    },
+    y: 100,
+    //scaleY: 1.5,
+    opacity: 0,
+    duration: 1.5,
+    ease: "power3.out"
   });
 });

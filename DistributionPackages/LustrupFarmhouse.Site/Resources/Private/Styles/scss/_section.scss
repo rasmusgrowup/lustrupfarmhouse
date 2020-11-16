@@ -1,7 +1,11 @@
 .main-section {
-    .neos-contentcollection {
-        .headline {
-            max-width: $column-content-width;
-        }
+    margin: 0 auto .25em;
+    padding: 0;
+    position: relative;
+    //max-width: 1700px;
+
+    .container-image {
+        display: block;
+        width: 100%;
     }
 }
