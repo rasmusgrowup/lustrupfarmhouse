@@ -48,7 +48,7 @@ $column-breakpoint: 768px;
     .templateOne-column, .templateTwo-column, .templateThree-column {
         display: block;
         flex: 2;
-        padding: 3em 1em;
+        padding: 5em 1em;
         //text-align: center;
         width: 100%;
 
@@ -58,6 +58,7 @@ $column-breakpoint: 768px;
 
             @media only screen and (min-width: $column-breakpoint) {
                 margin: 0 auto;
+                padding: 3em 1em;
                 width: 90%;
             }
 
