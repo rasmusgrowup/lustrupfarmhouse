@@ -114,9 +114,39 @@
             }
 
             .booking-cta {
-                display: none;
-                line-height: 2;
                 //text-decoration: underline;
+                line-height: 2;
+                position: relative;
+
+                a {
+                    display: inline-block;
+                    color: $black;
+                    font-weight: 700;
+                    line-height: 1.75;
+                    //margin-top: 1em;
+                    transition: .25s;
+
+                    &:after {
+                        background-color: $black;
+                        display: block;
+                        content: '';
+                        height: 2px;
+                        width: 100%;
+                        transition: .25s;
+                    }
+
+                    &:hover {
+                        color: $orange;
+
+                            &:after {
+                            background-color: $orange;
+                            display: block;
+                            content: '';
+                            height: 2px;
+                            width: 100%;
+                        }
+                    }
+                }
             }
         }
     }
@@ -230,42 +260,6 @@
                 .language-selector, .booking-cta {
                     display: inline-block;
                     padding-left: 15px;
-                }
-
-                .booking-cta {
-                    //text-decoration: underline;
-                    line-height: 2;
-                    position: relative;
-
-                    a {
-                        display: inline-block;
-                        color: $black;
-                        font-weight: 700;
-                        line-height: 1.75;
-                        //margin-top: 1em;
-                        transition: .25s;
-
-                        &:after {
-                            background-color: $black;
-                            display: block;
-                            content: '';
-                            height: 2px;
-                            width: 100%;
-                            transition: .25s;
-                        }
-
-                        &:hover {
-                            color: $orange;
-
-                                &:after {
-                                background-color: $orange;
-                                display: block;
-                                content: '';
-                                height: 2px;
-                                width: 100%;
-                            }
-                        }
-                    }
                 }
             }
         }

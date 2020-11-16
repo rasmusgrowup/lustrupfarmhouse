@@ -81,18 +81,6 @@ prototype(LustrupFarmhouse.Site:Component.Header) < prototype(Neos.Fusion:Compon
                 <a class="logo flex-equal" href={props.homeLink}><img src={props.logoUri} alt="" /></a>
 
                 <div class="options flex-equal">
-                    <div class="language-selector">
-                        <button type="button" name="button" id="openLanguageMenu">language</button>
-                        <div id="languageModal" class="language-modal">
-                            <div class="modal-content">
-                                <span class="close-modal">&times;</span>
-                                <div class="modal-text">
-                                    <p>Select your language</p>
-                                </div>
-                                {props.languageMenu}
-                            </div>
-                        </div>
-                    </div>
                     <div class="booking-cta">
                         <a href="https://booking.octopuspms.com/RoomBook?Code=c8ba02e5-da5a-4b41-8626-37cb4a483e2e" target="_blank"><span>Book your stay</span></a>
                     </div>

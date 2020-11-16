@@ -3,6 +3,7 @@
     //border-top: 1px solid #eee;
     margin: 0;
     padding: 60px 20px;
+    position: relative;
 
     .footer-content {
         display: block;
@@ -46,6 +47,7 @@
             li {
                 //display: inline;
                 //margin-right: 20px;
+                margin-bottom: .5em;
 
                 a {
                     color: $black;
@@ -77,8 +79,11 @@
             ul {
                 li {
                     display: inline;
-                    margin-right: 20px;
+                    margin-right: 1em;
                 }
+            }
+            .language-selector {
+                display: inline;
             }
         }
     }

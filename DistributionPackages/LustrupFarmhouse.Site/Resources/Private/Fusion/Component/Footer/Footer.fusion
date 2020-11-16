@@ -6,12 +6,12 @@ prototype(LustrupFarmhouse.Site:Component.Footer) < prototype(Neos.Neos:ContentC
         node = ${site}
         property = 'footerInfo'
     }
-    footerItems = Neos.Fusion:Collection {
-        collection = ${q(site).property('footerItems')}
-        itemName = 'node'
-        itemRenderer = Carbon.Link:Link {
-            node = ${node}
-        }
+    languageMenu = Neos.Neos:DimensionsMenu {
+        dimension = 'language'
+        attributes.class="language-list"
+        normal.attributes.class="language-item"
+        active.attributes.class="language-active"
+        current.attributes.class="language-current"
     }
 
     renderer = afx`
@@ -46,9 +46,22 @@ prototype(LustrupFarmhouse.Site:Component.Footer) < prototype(Neos.Neos:ContentC
                     <li>&copy; {props.year}  Lustrup Farmhouse Aps</li>
                     <li><a href="/terms">Terms & Condition</a></li>
                     <li><a href="#">Manage Cookie Settings</a></li>
+                    <li>
+                        <div class="language-selector">
+                            <button type="button" name="button" id="openLanguageMenu">Choose a language</button>
+                            <div id="languageModal" class="language-modal">
+                                <div class="modal-content">
+                                    <span class="close-modal">&times;</span>
+                                    <div class="modal-text">
+                                        <p>Select your language</p>
+                                    </div>
+                                    {props.languageMenu}
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
-            {props.footerItems}
         </footer>
     `
 
