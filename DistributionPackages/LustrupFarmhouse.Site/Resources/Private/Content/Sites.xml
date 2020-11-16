@@ -165,16 +165,16 @@
        <properties/>
       </variant>
       <node identifier="04ec6266-2415-4b8d-a4d3-81b471cd10f8" nodeName="node-1h8ef4oqlh8vg">
-       <variant sortingIndex="175" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateTwo" version="7" removed="" hidden="" hiddenInIndex="">
+       <variant sortingIndex="175" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateTwo" version="9" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>da</language>
         </dimensions>
         <accessRoles __type="array"/>
         <creationDateTime __type="object" __classname="DateTime">2020-11-16T16:50:05+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T17:50:10+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T17:50:09+01:00</lastPublicationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T20:23:54+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T20:23:54+01:00</lastPublicationDateTime>
         <properties>
-         <text __type="string">&lt;p&gt;If you have any questions concerning Lustrup Farmhouse Apartments or your stay please get in contact on the details below. &amp;nbsp;We will be delighted to assist you in any way we can.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h4&gt;Tlf.: &lt;a href=&quot;tel:+4521992805&quot;&gt;+45 21 99 28 05&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;Email: &lt;a href=&quot;mailto:info@lustrupfarmhouse.dk&quot;&gt;info@lustrupfarmhouse.dk&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Address&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Strengevej 49&lt;/p&gt;&lt;p&gt;DK-6760, Denmark&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Company Info&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Lustrup Farmhouse I/S&lt;/p&gt;&lt;p&gt;CVR-nr. &amp;nbsp;DK-39248999&lt;/p&gt;</text>
+         <text __type="string">&lt;p&gt;If you have any questions concerning Lustrup Farmhouse Apartments or your stay please get in contact on the details below. &amp;nbsp;We will be delighted to assist you in any way we can.&lt;/p&gt;&lt;h4&gt;Tlf.: &lt;a href=&quot;tel:+4521992805&quot;&gt;+45 21 99 28 05&lt;/a&gt;&lt;/h4&gt;&lt;h4&gt;Email: &lt;a href=&quot;mailto:info@lustrupfarmhouse.dk&quot;&gt;info@lustrupfarmhouse.dk&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Address&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Strengevej 49&lt;/p&gt;&lt;p&gt;DK-6760, Denmark&lt;/p&gt;</text>
          <image __type="object" __identifier="5c25560b-f025-46a5-9735-92b1f3ba3def" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;5c25560b-f025-46a5-9735-92b1f3ba3def&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;contact-lustrup.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;e359ac3cce95e0c78e1a7ccda6dfc9a676dbac54&quot;,&quot;hash&quot;:&quot;e359ac3cce95e0c78e1a7ccda6dfc9a676dbac54&quot;,&quot;__identity&quot;:&quot;7fdca33a-5994-4357-bf22-8657415eb184&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
          <label __type="string"></label>
          <title __type="string">&lt;h1&gt;Say hi&lt;/h1&gt;</title>

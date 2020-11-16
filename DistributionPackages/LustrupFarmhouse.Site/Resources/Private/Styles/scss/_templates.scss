@@ -8,7 +8,7 @@ $column-breakpoint: 768px;
         align-items: stretch;
         display: flex;
         justify-content: center;
-        height: 56vw;
+        height: 58vw;
         max-height: calc(100vh - 120px);
     }
 
@@ -24,7 +24,7 @@ $column-breakpoint: 768px;
             width: 100%;
 
             @media only screen and (min-width: 415px) {
-                max-height: 720px;
+                max-height: 800px;
             }
 
             @media only screen and (min-width: $column-breakpoint) {
