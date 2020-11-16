@@ -166,7 +166,7 @@
 
         .navigation-content {
             left: 4vw;
-            top: 50%;
+            top: 35%;
             position: absolute;
             transform: translateY(-50%);
             z-index: 2;
@@ -180,13 +180,29 @@
                     }
                 }
             }
+
+            @media only screen and (min-width: 414px) {
+                top: 40%;
+            }
+
+            @media only screen and (min-width: $desktop) {
+                top: 50%;
+            }
         }
 
         .social-links {
             display: flex;
             position: absolute;
-            bottom: 4vw;
+            bottom: 20vh;
             left: 4vw;
+
+            @media only screen and (min-width: 414px) {
+                bottom: 10vh;
+            }
+
+            @media only screen and (min-width: $desktop) {
+                bottom: 4vh;
+            }
 
             a {
                 align-items: center;
