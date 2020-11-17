@@ -21,8 +21,14 @@
             values:
               'None':
                 label: 'None'
+              '#FAFAFA':
+                label: 'Light Grey'
               '#F6F1EB':
                 label: 'Sand'
+              '#F4EFE6':
+                label: 'Light yellow'
+              '#F2F8F8':
+                label: 'Light Turqouise'
               '#E8E3DC':
                 label: 'Wet Sand'
               '#D0C8B9':

@@ -9,8 +9,8 @@ $earth: #B24C16;
 $family-sans-serif: 'Roboto', sans-serif !default;
 $font: 'Roboto', sans-serif !important;
 $TOMMY-font: 'Roboto', sans-serif !important;
-$navigation-font: 'EB Garamond', serif !important;
-$headline-font: 'EB Garamond', serif !important;
+$navigation-font: 'MADE-MIRAGE' !important;
+$headline-font: 'MADE-MIRAGE' !important;
 $family-monospace: monospace !default
 $render-mode: optimizeLegibility !default
 $mobile: 414px;
@@ -26,3 +26,4 @@ $primary: $orange;
 @import "../../../Private/Styles/scss/wrapper";
 @import "../../../Private/Styles/scss/card";
 @import "../../../Private/Styles/scss/floating";
+@import "../../../Private/Styles/scss/rooms";

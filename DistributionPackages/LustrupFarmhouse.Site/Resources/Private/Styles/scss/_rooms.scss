@@ -1,0 +1,159 @@
+.room-header {
+    position: relative;
+
+    .room-image {
+        min-height: 480px;
+        width: 100%;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+            width: auto;
+
+            @media only screen and (min-width: $desktop){
+                height: auto;
+                width: 100%;
+            }
+        }
+    }
+
+    .room-content {
+        color: white;
+        left: 1em;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 90%;
+
+        @media only screen and (min-width: $desktop){
+            left: 5em;
+            width: 40%;
+        }
+
+        .room-title {
+            margin-bottom: 2em;
+        }
+    }
+}
+
+.room-wrapper {
+    position: relative;
+    padding-top: 86%;
+
+    a {
+        color: white;
+    }
+
+    @media only screen and (min-width: $desktop) {
+        &:hover{
+            cursor: pointer;
+
+            .room-content {
+                .room-title, .room-att, .room-link-container {
+                    transform: translateY(0);
+                    transition: .3s;
+                }
+            }
+        }
+    }
+
+    .room-image {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        img {
+            display: block;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .room-content {
+        bottom: 2em;
+        color: white;
+        left: 2em;
+        overflow: hidden;
+        position: absolute;
+
+        @media only screen and (min-width: $desktop) {
+            bottom: 3em;
+            left: 4em;
+
+            .room-title, .room-att, .room-link-container {
+                transform: translateY(30px);
+                transition: .3s;
+            }
+        }
+
+        .room-title, .room-att {
+            display: inline-block;
+            font-family: 'EB Garamond', sans-serif;
+            margin-right: .5em;
+            margin-bottom: .5em;
+
+            p {
+                font-size: 1.5em;
+            }
+        }
+
+        .room-title {
+            font-size: 1.5em;
+
+            @media only screen and (min-width: $desktop) {
+                font-size: 2.5em;
+            }
+        }
+
+        .room-link-container {
+            position: relative;
+            width: fit-content;
+
+            &:after {
+                background-color: white;
+                bottom: 0;
+                clear: both;
+                content: ' ';
+                display: table;
+                height: 2px;
+                //position: absolute;
+                width: 100%;
+            }
+
+            &:hover {
+                svg g line {
+                    stroke: $orange;
+                    width: 1.2em;
+                }
+                p {
+                    color: $orange;
+                }
+                &:after {
+                    background-color: $orange;
+                }
+            }
+        }
+
+        .room-link {
+            align-items: center;
+            display: flex;
+            width: fit-content;
+
+            p, img {
+                display: inline-block;
+            }
+
+            p {
+                color: white;
+                margin-right: .5em;
+            }
+
+            svg {
+                fill: white;
+                width: 1.2em;
+            }
+        }
+    }
+}

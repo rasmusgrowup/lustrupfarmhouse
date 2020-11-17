@@ -4,6 +4,7 @@ $column-breakpoint: 415px;
 img {
     display: block;
     margin-bottom: .25em;
+    object-fit: cover;
 }
 
 .column-wrapper {
