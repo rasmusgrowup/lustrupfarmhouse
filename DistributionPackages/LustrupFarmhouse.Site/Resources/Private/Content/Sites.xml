@@ -22,111 +22,111 @@
       <properties/>
      </variant>
      <node identifier="29e349cc-41b3-4df2-aad4-3f6e46c8eab5" nodeName="node-3koemyci0ve29">
-      <variant sortingIndex="200" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateOne" version="10" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="200" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateOne" version="11" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2020-11-13T17:03:49+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T12:11:52+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T12:11:52+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T16:32:05+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T16:32:05+01:00</lastPublicationDateTime>
        <properties>
         <link __type="string">node://c2f68379-31bc-44f1-af92-2961226e1e63</link>
         <text __type="string">&lt;p&gt;What began as a desire to create our own unique place for people to enjoy has grown into Lustrup Farmhouse, a peaceful place surrounded by beautiful nature.&lt;/p&gt;</text>
         <image __type="object" __identifier="06237c5b-8b0d-4909-91ff-2ee47217d318" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;06237c5b-8b0d-4909-91ff-2ee47217d318&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;DA2B23D3-3DFE-4CEE-93B1-F9C172F3AEE1-B4A07050-621B-434E-B9FE-66A0A4F77184.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;b86845fe9bfda8314ec034fd523addf1e018c35f&quot;,&quot;hash&quot;:&quot;b86845fe9bfda8314ec034fd523addf1e018c35f&quot;,&quot;__identity&quot;:&quot;eb67356e-b36a-44b0-a4d1-3824789a3a33&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
         <label __type="string">&lt;p&gt;Read our story&lt;/p&gt;</label>
         <title __type="string">&lt;h2&gt;A dream made into a living.&lt;/h2&gt;</title>
-        <bgcolor __type="string">#DEE8EB</bgcolor>
+        <bgcolor __type="string">#F2F8F8</bgcolor>
        </properties>
       </variant>
      </node>
      <node identifier="78b472e9-8ce8-4d4f-9306-3280903fbcad" nodeName="node-523nj0hxiqjsb">
-      <variant sortingIndex="175" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateOne" version="18" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="175" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateOne" version="21" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2020-11-16T10:26:18+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T12:10:54+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T12:10:54+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T16:30:58+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T16:30:58+01:00</lastPublicationDateTime>
        <properties>
         <link __type="string">node://059c6872-1399-4ed6-aac4-5f8017a5113c</link>
         <text __type="string">&lt;p&gt;Every season at the farmhouse is different providing fantastic opportunities to experience and explore nature in its’ most authentic way. &amp;nbsp;We are so fortunate to have such beautiful countryside surrounding the farmhouse just waiting for you to feel, smell and touch. Please read our guide for the best autumn attractions.&amp;nbsp;&lt;/p&gt;</text>
         <image __type="object" __identifier="8520a7f5-e6b2-45ce-b037-cbec31b56024" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;8520a7f5-e6b2-45ce-b037-cbec31b56024&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;01CAB2AE-36E2-4589-96B7-AD1B829D8FCC-8B4F18AF-E839-4642-9A96-B295D4681955.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;3eaeda114150039638487f158a088e62a66cbd90&quot;,&quot;hash&quot;:&quot;3eaeda114150039638487f158a088e62a66cbd90&quot;,&quot;__identity&quot;:&quot;2d050a81-3297-48fe-bfdb-e3df4f7cba00&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
         <label __type="string">&lt;p&gt;Browse Autumn Attractions&lt;/p&gt;</label>
         <title __type="string">&lt;h2&gt;Autumn at the farmhouse&lt;/h2&gt;</title>
-        <bgcolor __type="string">#3C4445</bgcolor>
-        <whiteText __type="boolean">1</whiteText>
+        <bgcolor __type="string">#FAFAFA</bgcolor>
+        <whiteText __type="boolean"></whiteText>
        </properties>
       </variant>
      </node>
      <node identifier="09512e19-b4aa-43c3-8682-972a5fad305b" nodeName="node-660mqjc2ur4uv">
-      <variant sortingIndex="300" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateTwo" version="13" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="300" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateTwo" version="14" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2020-11-16T10:02:28+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T12:12:39+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T12:12:39+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T16:29:28+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T16:29:28+01:00</lastPublicationDateTime>
        <properties>
         <link __type="string">https://www.instagram.com/lustrup_farmhouse/</link>
         <text __type="string">&lt;p&gt;Making our guests from all over the world feel at home in our apartments, meant decorating the rooms to feel open, calm and cozy. You can get a behind the scenes look at our Instagram account.&lt;/p&gt;</text>
         <image __type="object" __identifier="426b371e-5859-4a33-af23-ec8475c1ee70" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;426b371e-5859-4a33-af23-ec8475c1ee70&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Janni-table.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;308ac8aad42f06b1258f65d74085c212416b888b&quot;,&quot;hash&quot;:&quot;308ac8aad42f06b1258f65d74085c212416b888b&quot;,&quot;__identity&quot;:&quot;1aa91569-742f-4621-8fd6-aeaa56e65a30&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
         <label __type="string">&lt;p&gt;Visit our Instagram profile&lt;/p&gt;</label>
         <title __type="string">&lt;h2&gt;The farmhouse feeling.&lt;/h2&gt;</title>
-        <bgcolor __type="string">#D0C8B9</bgcolor>
+        <bgcolor __type="string">#F6F1EB</bgcolor>
        </properties>
       </variant>
      </node>
      <node identifier="5855bb0e-5229-40b0-9a01-b2c7b059b8fb" nodeName="node-cvg69u6sm234d">
-      <variant sortingIndex="188" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateTwo" version="13" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="188" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateTwo" version="14" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2020-11-16T12:03:59+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T12:10:54+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T12:10:54+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T16:30:37+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T16:30:36+01:00</lastPublicationDateTime>
        <properties>
         <link __type="string">node://059c6872-1399-4ed6-aac4-5f8017a5113c</link>
         <text __type="string">&lt;p&gt;Every season at the farmhouse is different providing fantastic opportunities to experience and explore nature in its’ most authentic way. &amp;nbsp;We are so fortunate to have such beautiful countryside surrounding the farmhouse just waiting for you to feel, smell and touch. Please read our guide for the best summer attractions.&amp;nbsp;&lt;/p&gt;</text>
         <image __type="object" __identifier="bbe9c9a3-bfc1-4a39-9186-c092327bfd7e" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;bbe9c9a3-bfc1-4a39-9186-c092327bfd7e&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;B94F09A7-D96A-4637-A173-EAC6895C6C4A-180C5385-E682-4214-BC0D-69F6A3DEA69E.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;657482b80f7fba144483f72e49884a5b1422df8c&quot;,&quot;hash&quot;:&quot;657482b80f7fba144483f72e49884a5b1422df8c&quot;,&quot;__identity&quot;:&quot;ae7de929-37d7-4ebc-9540-afda54347eca&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
         <label __type="string">&lt;p&gt;Browse Summer Attractions&lt;/p&gt;</label>
         <title __type="string">&lt;h2&gt;Summer at the farmhouse&lt;/h2&gt;</title>
-        <bgcolor __type="string">#F6F1EB</bgcolor>
+        <bgcolor __type="string">#F4EFE6</bgcolor>
        </properties>
       </variant>
      </node>
      <node identifier="46750cea-641b-4d53-b02d-8e809ff01996" nodeName="node-es7wgmzir5tke">
-      <variant sortingIndex="100" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateOne" version="28" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="100" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateOne" version="31" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2020-11-13T15:44:57+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T12:03:17+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T12:03:17+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T16:34:20+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T16:34:20+01:00</lastPublicationDateTime>
        <properties>
         <link __type="string">https://booking.octopuspms.com/RoomBook?Code=c8ba02e5-da5a-4b41-8626-37cb4a483e2e</link>
         <text __type="string">&lt;p&gt;At Lustrup Farmhouse, there’s room to relax, and enjoy time with your family - the perfect getaway for couples, friends, parents and their kids, or anyone who enjoys being close to nature&lt;/p&gt;</text>
         <image __type="object" __identifier="3ab6d54d-8b7e-448a-b6c9-546505f4d7eb" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;3ab6d54d-8b7e-448a-b6c9-546505f4d7eb&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;LustrupFarmhouse-top-view.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;f7770cea57bdb35c94a734e063cdba816d1d6db1&quot;,&quot;hash&quot;:&quot;f7770cea57bdb35c94a734e063cdba816d1d6db1&quot;,&quot;__identity&quot;:&quot;e4847fac-fe1f-426f-b984-fdb11ecde903&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
         <label __type="string">&lt;p&gt;Book your stay&lt;/p&gt;</label>
         <title __type="string">&lt;h1&gt;A Jewel In The Country Side&lt;/h1&gt;</title>
-        <bgcolor __type="string">#F6F1EB</bgcolor>
+        <bgcolor __type="string">#FAFAFA</bgcolor>
         <whiteText __type="boolean"></whiteText>
        </properties>
       </variant>
      </node>
      <node identifier="6a559f95-a623-4811-bdd5-44947857beff" nodeName="node-u0ouf1lvh1ner">
-      <variant sortingIndex="150" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateThree" version="9" removed="" hidden="" hiddenInIndex="">
+      <variant sortingIndex="150" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateThree" version="15" removed="" hidden="" hiddenInIndex="">
        <dimensions>
         <language>da</language>
        </dimensions>
        <accessRoles __type="array"/>
        <creationDateTime __type="object" __classname="DateTime">2020-11-13T17:14:19+01:00</creationDateTime>
-       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-13T18:07:49+01:00</lastModificationDateTime>
-       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-13T18:07:49+01:00</lastPublicationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T16:34:20+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T16:34:20+01:00</lastPublicationDateTime>
        <properties>
         <link __type="string">node://0da67730-642b-402c-baa5-74d555356b28</link>
         <text __type="string">&lt;p&gt;Whether you’re a couple seeking a romantic getaway, friends enjoying each other’s company, a bride and groom to be or a family needing some extra space we have got the perfect accommodation for everyone. &amp;nbsp;&amp;nbsp;&lt;/p&gt;</text>
@@ -134,7 +134,8 @@
         <label __type="string">&lt;p&gt;Check accommodation&lt;/p&gt;</label>
         <title __type="string">&lt;h2&gt;In our apartments there’s room for everyone&lt;/h2&gt;</title>
         <image2 __type="object" __identifier="9ff32621-b23f-4173-bd8e-3d391e0d97d3" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;9ff32621-b23f-4173-bd8e-3d391e0d97d3&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;A55F779C-66C7-48B5-8062-DB9430CDC3A6-BA2C4C68-B081-4A15-8ACA-AAF6E75F748E.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;50c0616423b9e8c2a425f755380714d547076ce8&quot;,&quot;hash&quot;:&quot;50c0616423b9e8c2a425f755380714d547076ce8&quot;,&quot;__identity&quot;:&quot;89ee9ed2-8f0e-44f2-a1a7-e892990c6d71&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image2>
-        <bgcolor __type="string">#D0C8B9</bgcolor>
+        <bgcolor __type="string">#F6F1EB</bgcolor>
+        <whiteText __type="boolean"></whiteText>
        </properties>
       </variant>
      </node>
@@ -233,32 +234,21 @@
          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T16:05:17+01:00</lastPublicationDateTime>
          <properties/>
         </variant>
-        <node identifier="7bb9c9c5-4460-4faf-94f8-8eb01c42eafa" nodeName="node-5rq82500v0g8o">
-         <variant sortingIndex="100" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Image" version="3" removed="" hidden="" hiddenInIndex="">
+        <node identifier="c8dd390e-1cb9-4e41-a6ef-074ce26f2b1e" nodeName="node-972ldl0oqirer">
+         <variant sortingIndex="100" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Room" version="8" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
-          <creationDateTime __type="object" __classname="DateTime">2020-11-16T16:06:28+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T16:07:11+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T16:07:11+01:00</lastPublicationDateTime>
+          <creationDateTime __type="object" __classname="DateTime">2020-11-17T12:59:26+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:23:55+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:23:55+01:00</lastPublicationDateTime>
           <properties>
-           <image __type="object" __identifier="d47da7e4-db5a-4470-b777-011d2ac1408a" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;d47da7e4-db5a-4470-b777-011d2ac1408a&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Family room.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;30eebe8e23211ae6ca397762d4a2db8b3916700f&quot;,&quot;hash&quot;:&quot;30eebe8e23211ae6ca397762d4a2db8b3916700f&quot;,&quot;__identity&quot;:&quot;de86fb22-dedf-46d8-b101-4e4ec6c64ed0&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
-          </properties>
-         </variant>
-        </node>
-        <node identifier="1a61d984-1acb-4453-b596-b724ca843a44" nodeName="node-kyig7plzc3ys3">
-         <variant sortingIndex="200" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Floating" version="8" removed="" hidden="" hiddenInIndex="">
-          <dimensions>
-           <language>da</language>
-          </dimensions>
-          <accessRoles __type="array"/>
-          <creationDateTime __type="object" __classname="DateTime">2020-11-16T16:07:51+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T16:08:13+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T16:08:13+01:00</lastPublicationDateTime>
-          <properties>
-           <title __type="string">&lt;p&gt;Family Room&lt;/p&gt;</title>
-           <subtitle __type="string">&lt;p&gt;Sleeps 6&lt;/p&gt;</subtitle>
+           <link __type="string">node://c7cd2973-0d67-4348-89a3-5b087db9ef82</link>
+           <text __type="string">&lt;p&gt;(sleeps 6)&lt;/p&gt;</text>
+           <image __type="object" __identifier="e80c3396-b1a1-4abf-b09c-b92281f5ac7b" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;e80c3396-b1a1-4abf-b09c-b92281f5ac7b&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;The Goose.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;8e46de31b7796d68bf2eccdc66d8bce42dfe5e4b&quot;,&quot;hash&quot;:&quot;8e46de31b7796d68bf2eccdc66d8bce42dfe5e4b&quot;,&quot;__identity&quot;:&quot;b58171af-4fb0-4456-ba24-6583523df4da&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <label __type="string">&lt;p&gt;Explore room&lt;/p&gt;</label>
+           <title __type="string">&lt;h2&gt;The Goose&lt;/h2&gt;</title>
           </properties>
          </variant>
         </node>
@@ -274,76 +264,574 @@
          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T16:05:17+01:00</lastPublicationDateTime>
          <properties/>
         </variant>
-        <node identifier="ca57e286-809c-48ca-a63a-44d55ec8e300" nodeName="node-7tpwwgx6hve7g">
-         <variant sortingIndex="100" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Image" version="3" removed="" hidden="" hiddenInIndex="">
+        <node identifier="af6736b9-931b-4eed-ae3e-c504085d8f13" nodeName="node-zmk5hohvbk6sd">
+         <variant sortingIndex="100" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Room" version="7" removed="" hidden="" hiddenInIndex="">
           <dimensions>
            <language>da</language>
           </dimensions>
           <accessRoles __type="array"/>
-          <creationDateTime __type="object" __classname="DateTime">2020-11-16T16:06:57+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T16:07:11+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T16:07:11+01:00</lastPublicationDateTime>
+          <creationDateTime __type="object" __classname="DateTime">2020-11-17T13:00:42+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T13:03:43+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T13:03:42+01:00</lastPublicationDateTime>
           <properties>
-           <image __type="object" __identifier="043f9c28-3367-4be4-9705-a67bee80d31f" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;043f9c28-3367-4be4-9705-a67bee80d31f&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Couples room.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;a3c00005a0a49c4dafe172c1cea4ee1afe67b9cd&quot;,&quot;hash&quot;:&quot;a3c00005a0a49c4dafe172c1cea4ee1afe67b9cd&quot;,&quot;__identity&quot;:&quot;7d6c91b0-e3f4-450a-a1f9-5cc95d31b626&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
-          </properties>
-         </variant>
-        </node>
-        <node identifier="d7af163d-238d-43be-a34e-f70f1fa49c9c" nodeName="node-is1r2k1nd3aft">
-         <variant sortingIndex="200" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Floating" version="4" removed="" hidden="" hiddenInIndex="">
-          <dimensions>
-           <language>da</language>
-          </dimensions>
-          <accessRoles __type="array"/>
-          <creationDateTime __type="object" __classname="DateTime">2020-11-16T16:09:00+01:00</creationDateTime>
-          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T16:09:36+01:00</lastModificationDateTime>
-          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T16:09:36+01:00</lastPublicationDateTime>
-          <properties>
-           <title __type="string">&lt;p&gt;Couples Room&lt;/p&gt;</title>
-           <subtitle __type="string">&lt;p&gt;Sleeps 3&lt;/p&gt;</subtitle>
+           <link __type="string">#</link>
+           <text __type="string">&lt;p&gt;(sleeps 6)&lt;/p&gt;</text>
+           <image __type="object" __identifier="3dfc0661-3923-4048-a1ce-51b64d612869" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;3dfc0661-3923-4048-a1ce-51b64d612869&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;The Owl.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;e8820e113d34afac211562e26e8463026973242b&quot;,&quot;hash&quot;:&quot;e8820e113d34afac211562e26e8463026973242b&quot;,&quot;__identity&quot;:&quot;0f202277-a48c-4378-b343-b48cd0462e38&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <label __type="string">&lt;p&gt;Explore room&lt;/p&gt;</label>
+           <title __type="string">&lt;h2&gt;The Owl&lt;/h2&gt;</title>
           </properties>
          </variant>
         </node>
        </node>
       </node>
-      <node identifier="77c398c2-b068-4c34-90c7-6c24d6badfe4" nodeName="node-yk64k0fgt2esi">
-       <variant sortingIndex="100" workspace="live" nodeType="LustrupFarmhouse.Site:Collection.Section" version="3" removed="" hidden="" hiddenInIndex="">
+      <node identifier="3c1c5b17-99e6-4f9d-84e7-8d81acf030d7" nodeName="node-8z67zii7xroxy">
+       <variant sortingIndex="250" workspace="live" nodeType="Neos.NodeTypes.ColumnLayouts:TwoColumn" version="3" removed="" hidden="" hiddenInIndex="">
         <dimensions>
          <language>da</language>
         </dimensions>
         <accessRoles __type="array"/>
-        <creationDateTime __type="object" __classname="DateTime">2020-11-16T16:43:17+01:00</creationDateTime>
-        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T16:44:03+01:00</lastModificationDateTime>
-        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T16:44:03+01:00</lastPublicationDateTime>
-        <properties/>
+        <creationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:09+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:52+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:51+01:00</lastPublicationDateTime>
+        <properties>
+         <layout __type="string">50-50</layout>
+        </properties>
        </variant>
-       <node identifier="229fb6fc-a7ff-4768-ab9e-be54a18b5372" nodeName="node-eskt3660c9p2g">
-        <variant sortingIndex="550" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Floating" version="8" removed="" hidden="" hiddenInIndex="">
+       <node identifier="7594b931-2da9-45f4-9238-69c10098721b" nodeName="column0">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
          <dimensions>
           <language>da</language>
          </dimensions>
          <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2020-11-16T15:49:10+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T16:44:03+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T16:44:03+01:00</lastPublicationDateTime>
+         <creationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:09+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:52+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:51+01:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="4ac2ae84-29f3-4ddf-8ffd-5a555a1f8b44" nodeName="node-972ldl0oqirer">
+         <variant sortingIndex="100" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Room" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:09+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T14:49:31+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T14:49:31+01:00</lastPublicationDateTime>
+          <properties>
+           <link __type="string">#</link>
+           <text __type="string">&lt;p&gt;(sleeps 6)&lt;/p&gt;</text>
+           <image __type="object" __identifier="1fd3f7b8-51f8-4d55-8a61-22bd65cec6f6" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;1fd3f7b8-51f8-4d55-8a61-22bd65cec6f6&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;The Deear.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;45113f3d24067cb0f835948f789358e460afb97d&quot;,&quot;hash&quot;:&quot;45113f3d24067cb0f835948f789358e460afb97d&quot;,&quot;__identity&quot;:&quot;fcdf4d5c-d35e-4d37-8887-da9d5bc4a4d6&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <label __type="string">&lt;p&gt;Explore room&lt;/p&gt;</label>
+           <title __type="string">&lt;h2&gt;The Deer&lt;/h2&gt;</title>
+          </properties>
+         </variant>
+        </node>
+       </node>
+       <node identifier="a821f2a7-ee92-4a74-bd0f-5c28231ee43e" nodeName="column1">
+        <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:09+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:52+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:51+01:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="76a0e02f-d051-44f3-bed9-b73f8aa4291c" nodeName="node-zmk5hohvbk6sd">
+         <variant sortingIndex="100" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Room" version="4" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:09+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T14:49:43+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T14:49:43+01:00</lastPublicationDateTime>
+          <properties>
+           <link __type="string">#</link>
+           <text __type="string">&lt;p&gt;(sleeps 6)&lt;/p&gt;</text>
+           <image __type="object" __identifier="6e979336-7eb0-4914-8970-55ac560ec69e" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;6e979336-7eb0-4914-8970-55ac560ec69e&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;The Hare.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;76a385a0e9c6ac5261a2d5f33f0cf70a4d0237a1&quot;,&quot;hash&quot;:&quot;76a385a0e9c6ac5261a2d5f33f0cf70a4d0237a1&quot;,&quot;__identity&quot;:&quot;abc1e1bb-5e50-4b70-aeb5-0034ed76e571&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <label __type="string">&lt;p&gt;Explore room&lt;/p&gt;</label>
+           <title __type="string">&lt;h2&gt;The Hare&lt;/h2&gt;</title>
+          </properties>
+         </variant>
+        </node>
+       </node>
+      </node>
+      <node identifier="6ff3c69d-f49c-4b56-91e0-d79080d033d2" nodeName="node-gd7p7tzb3bghs">
+       <variant sortingIndex="25" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateTwo" version="12" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2020-11-17T16:17:02+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T16:25:18+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T16:25:18+01:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">&lt;p&gt;Our apartments combine comfort and the relaxed feeling we know from the farmhouses of the British countryside.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;Each apartment is different, taking their names from the animals we see in the landscape around the farmhouse.&lt;/p&gt;</text>
+         <image __type="object" __identifier="1e2074e4-2f4b-4828-ad47-6358122ff94b" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;1e2074e4-2f4b-4828-ad47-6358122ff94b&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;bed.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;a099d3da5cd254502b73a0e9e898fe091d429996&quot;,&quot;hash&quot;:&quot;a099d3da5cd254502b73a0e9e898fe091d429996&quot;,&quot;__identity&quot;:&quot;219453c0-a94f-45ed-9af9-3a2288c6eddb&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+         <label __type="string"></label>
+         <title __type="string">&lt;h1&gt;The Farmhouse apartments&lt;/h1&gt;</title>
+         <bgcolor __type="string">#F4EFE6</bgcolor>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="bcb34796-d8f6-4276-bc45-0d9e44c8b6f3" nodeName="node-lw5c9uib7s02d">
+       <variant sortingIndex="350" workspace="live" nodeType="Neos.NodeTypes.ColumnLayouts:TwoColumn" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:32+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:52+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:51+01:00</lastPublicationDateTime>
+        <properties>
+         <layout __type="string">50-50</layout>
+        </properties>
+       </variant>
+       <node identifier="07302f68-a7bc-4f80-ac58-65c0d40aed36" nodeName="column0">
+        <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:32+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:52+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:51+01:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="c60c3433-dc0b-4862-8695-934054957d60" nodeName="node-972ldl0oqirer">
+         <variant sortingIndex="100" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Room" version="5" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:32+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T14:49:54+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T14:49:54+01:00</lastPublicationDateTime>
+          <properties>
+           <link __type="string">#</link>
+           <text __type="string">&lt;p&gt;(sleeps 3)&lt;/p&gt;</text>
+           <image __type="object" __identifier="867b186b-7485-40ed-86d8-e10437fe27c7" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;867b186b-7485-40ed-86d8-e10437fe27c7&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;The Duck.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;c3480ba4e74bad074cfe2c3c6843076e650dec2a&quot;,&quot;hash&quot;:&quot;c3480ba4e74bad074cfe2c3c6843076e650dec2a&quot;,&quot;__identity&quot;:&quot;dd14ae8d-6347-4381-bff7-01ae41597e3b&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <label __type="string">&lt;p&gt;Explore room&lt;/p&gt;</label>
+           <title __type="string">&lt;h2&gt;The Duck&lt;/h2&gt;</title>
+          </properties>
+         </variant>
+        </node>
+       </node>
+       <node identifier="4315e67f-09d4-41c4-9196-918cc29a5a02" nodeName="column1">
+        <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:32+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:52+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:51+01:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="7e0b073c-f2f7-4bf7-b613-ffdf82bcf4f1" nodeName="node-zmk5hohvbk6sd">
+         <variant sortingIndex="100" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Room" version="6" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2020-11-17T14:47:32+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T14:50:04+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T14:50:04+01:00</lastPublicationDateTime>
+          <properties>
+           <link __type="string">#</link>
+           <text __type="string">&lt;p&gt;(sleeps 3)&lt;/p&gt;</text>
+           <image __type="object" __identifier="bb6c249e-30d9-4f66-8da9-36f6afdd77b7" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;bb6c249e-30d9-4f66-8da9-36f6afdd77b7&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;The Swan.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;7b837dbc8bd1fe41ed7cc4659a393e646646555b&quot;,&quot;hash&quot;:&quot;7b837dbc8bd1fe41ed7cc4659a393e646646555b&quot;,&quot;__identity&quot;:&quot;6be0df33-ec15-49f6-9fdd-f7ef88d67847&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           <label __type="string">&lt;p&gt;Explore room&lt;/p&gt;</label>
+           <title __type="string">&lt;h2&gt;The Swan&lt;/h2&gt;</title>
+          </properties>
+         </variant>
+        </node>
+       </node>
+      </node>
+     </node>
+     <node identifier="c7cd2973-0d67-4348-89a3-5b087db9ef82" nodeName="node-7w6mvcf0a2kcw">
+      <variant sortingIndex="575" workspace="live" nodeType="LustrupFarmhouse.Site:Document.Page" version="4" removed="" hidden="" hiddenInIndex="1">
+       <dimensions>
+        <language>da</language>
+       </dimensions>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2020-11-17T14:45:19+01:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T14:45:27+01:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T14:45:27+01:00</lastPublicationDateTime>
+       <properties>
+        <title __type="string">The Goose</title>
+        <uriPathSegment __type="string">the-goose</uriPathSegment>
+       </properties>
+      </variant>
+      <node identifier="82089fb5-f963-cec4-333f-e846e5828206" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2020-11-17T14:45:19+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T14:45:27+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T14:45:27+01:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+       <node identifier="9c6d60f3-f543-4d4c-a2e0-9984c4483abf" nodeName="node-1c80un1nznpp4">
+        <variant sortingIndex="250" workspace="live" nodeType="LustrupFarmhouse.Site:Collection.Wrapper" version="7" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:25:08+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:52:33+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:52:33+01:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="77e1c61d-ffdc-485a-a760-bd77bc41f7b6" nodeName="node-ro0i86i4acy6n">
+         <variant sortingIndex="219" workspace="live" nodeType="LustrupFarmhouse.Site:Collection.Wrapper" version="2" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:25:08+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:25:42+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:25:41+01:00</lastPublicationDateTime>
+          <properties/>
+         </variant>
+         <node identifier="51f628aa-4320-48f7-b477-ca5af8cf0db1" nodeName="node-bf50n9yp80b7m">
+          <variant sortingIndex="338" workspace="live" nodeType="Neos.NodeTypes.ColumnLayouts:TwoColumn" version="4" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>da</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:25:08+01:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:26:30+01:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:26:30+01:00</lastPublicationDateTime>
+           <properties>
+            <layout __type="string">50-50</layout>
+           </properties>
+          </variant>
+          <node identifier="55deaaf0-0d82-4718-8a61-f7725f7724eb" nodeName="column0">
+           <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>da</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:25:08+01:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:26:23+01:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:26:23+01:00</lastPublicationDateTime>
+            <properties/>
+           </variant>
+           <node identifier="cdcd8696-71cd-44d9-85af-2f56a5311fee" nodeName="node-7tflwheb7koh1">
+            <variant sortingIndex="350" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Text" version="7" removed="" hidden="" hiddenInIndex="">
+             <dimensions>
+              <language>da</language>
+             </dimensions>
+             <accessRoles __type="array"/>
+             <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:25:09+01:00</creationDateTime>
+             <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:28:38+01:00</lastModificationDateTime>
+             <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:28:38+01:00</lastPublicationDateTime>
+             <properties>
+              <text __type="string">&lt;p&gt;This two-bedroom farmhouse apartment, set with its own terrace, sleeps max 6 adults. &amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;On the ground floor is a spacious bathroom, open plan kitchen with dining area and a cozy lounge. There are two bedrooms on the first floor and a additional toilet. A comfortable sofabed in the lounge provides two more beds. The downstairs of the apartment is accessible by a standard manual wheelchair.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;A service charge of 800 DKR will be added to your booking which includes: final cleaning, electricity &amp;amp; water, wifi, bedlinen &amp;amp; towels, cotbeds &amp;amp; highchairs (if needed).&amp;nbsp;&lt;/p&gt;</text>
+             </properties>
+            </variant>
+           </node>
+           <node identifier="1eb92e2f-6483-4807-b5a5-5c5fcc97d83f" nodeName="node-qdht5de1bmudl">
+            <variant sortingIndex="250" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+             <dimensions>
+              <language>da</language>
+             </dimensions>
+             <accessRoles __type="array"/>
+             <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:25:09+01:00</creationDateTime>
+             <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:26:58+01:00</lastModificationDateTime>
+             <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:26:58+01:00</lastPublicationDateTime>
+             <properties>
+              <text __type="string">&lt;h3&gt;All features&lt;/h3&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</text>
+             </properties>
+            </variant>
+           </node>
+          </node>
+          <node identifier="e4db5241-7ab5-4030-a3fe-7329be81e08d" nodeName="column1">
+           <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="3" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>da</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:25:08+01:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:26:23+01:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:26:23+01:00</lastPublicationDateTime>
+            <properties/>
+           </variant>
+           <node identifier="557ad25b-9ab9-4c8d-bd98-11f2f35c8b4b" nodeName="node-1kn7l6h7lpmda">
+            <variant sortingIndex="350" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Text" version="6" removed="" hidden="" hiddenInIndex="">
+             <dimensions>
+              <language>da</language>
+             </dimensions>
+             <accessRoles __type="array"/>
+             <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:26:44+01:00</creationDateTime>
+             <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:28:38+01:00</lastModificationDateTime>
+             <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:28:38+01:00</lastPublicationDateTime>
+             <properties>
+              <text __type="string">&lt;p&gt;The farmhouse apartment includes:&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;· All kitchen equipment&lt;/p&gt;&lt;p&gt;· Coffee machine (including coffee, filters &amp;amp; teabags)&lt;/p&gt;&lt;p&gt;·&amp;nbsp;Washing up liquid, clothes washing liquid &amp;amp; fabric conditioner&lt;/p&gt;&lt;p&gt;· Cleaning kit with hand sanitizer &amp;amp; anti-bacterial cleaning spray&lt;/p&gt;&lt;p&gt;· Disposable gloves&lt;/p&gt;&lt;p&gt;· Microwave&lt;/p&gt;&lt;p&gt;· Dishwasher (including tabs)&lt;/p&gt;&lt;p&gt;·&amp;nbsp;Tea towel &amp;amp; cloth&lt;/p&gt;&lt;p&gt;· Hairdryer&lt;/p&gt;&lt;p&gt;· Mild handsoap&lt;/p&gt;&lt;p&gt;·&amp;nbsp;Toilet rolls (initial supply)&lt;/p&gt;&lt;p&gt;· Basic first aid kit&lt;/p&gt;&lt;p&gt;· Wifi, Smart TV with 24 channels&lt;/p&gt;&lt;p&gt;· Bedlinen&lt;/p&gt;&lt;p&gt;· Towels&lt;/p&gt;&lt;p&gt;·&amp;nbsp;Outdoor furniture&lt;/p&gt;&lt;p&gt;· Barbeque&lt;/p&gt;</text>
+             </properties>
+            </variant>
+           </node>
+          </node>
+         </node>
+        </node>
+       </node>
+       <node identifier="4b27a55c-2f3f-477c-87ab-9e1126a3ec4c" nodeName="node-3clx265e8y7qv">
+        <variant sortingIndex="294" workspace="live" nodeType="Neos.NodeTypes.ColumnLayouts:TwoColumn" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:45:46+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:46:15+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:46:15+01:00</lastPublicationDateTime>
          <properties>
-          <title __type="string">&lt;p&gt;With those you love&lt;/p&gt;</title>
-          <subtitle __type="string">&lt;p&gt;ENJOY QUALITY TIME&lt;/p&gt;</subtitle>
+          <layout __type="string">66-33</layout>
+         </properties>
+        </variant>
+        <node identifier="4ad73d73-e030-4077-9d4a-d8cd13dea9dc" nodeName="column0">
+         <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:45:46+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:46:15+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:46:15+01:00</lastPublicationDateTime>
+          <properties/>
+         </variant>
+         <node identifier="1a983ac6-ec10-4607-8f2e-6a833cc44b61" nodeName="node-ufst31akywvtj">
+          <variant sortingIndex="475" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Image" version="3" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>da</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:45:46+01:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:47:49+01:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:47:48+01:00</lastPublicationDateTime>
+           <properties>
+            <image __type="object" __identifier="df6ec4d0-1735-4f83-909d-4c82379f693c" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;df6ec4d0-1735-4f83-909d-4c82379f693c&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Group 84.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;caa2c225d02cb67bb6253313a0c8f5fad74ee94e&quot;,&quot;hash&quot;:&quot;caa2c225d02cb67bb6253313a0c8f5fad74ee94e&quot;,&quot;__identity&quot;:&quot;edfd1ba3-bc1a-44ab-b0c9-a8bc542b7a84&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           </properties>
+          </variant>
+         </node>
+        </node>
+        <node identifier="a15da25c-7e39-426f-b9c2-4040748b37ea" nodeName="column1">
+         <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:45:46+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:46:15+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:46:15+01:00</lastPublicationDateTime>
+          <properties/>
+         </variant>
+         <node identifier="12b5019f-6a67-4b17-b8f9-4729057fbc93" nodeName="node-95usjz55j5qol">
+          <variant sortingIndex="100" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Image" version="3" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>da</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:45:46+01:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:47:49+01:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:47:48+01:00</lastPublicationDateTime>
+           <properties>
+            <image __type="object" __identifier="5faad4cd-cd09-4063-b297-2355f8f2d4db" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;5faad4cd-cd09-4063-b297-2355f8f2d4db&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Group 83.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;e47e22ec8757171c40279a68c68843b0c13ba1a6&quot;,&quot;hash&quot;:&quot;e47e22ec8757171c40279a68c68843b0c13ba1a6&quot;,&quot;__identity&quot;:&quot;324d16e5-02ed-45eb-abb5-6970af9827de&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           </properties>
+          </variant>
+         </node>
+        </node>
+       </node>
+       <node identifier="5cd19d14-f3e3-419b-a04a-a4d80906b551" nodeName="node-4b33ml5y3n6qd">
+        <variant sortingIndex="150" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateOne" version="13" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:22:40+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:44:42+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:44:42+01:00</lastPublicationDateTime>
+         <properties>
+          <link __type="string">#</link>
+          <text __type="string">&lt;p&gt;A cozy farmhouse apartment, The Deer feels spacious, calm and welcoming. It’s located with access to our beautiful garden with views to fields, offering guests plenty of space and much wanted peace of mind.&lt;/p&gt;</text>
+          <image __type="object" __identifier="043f9c28-3367-4be4-9705-a67bee80d31f" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;043f9c28-3367-4be4-9705-a67bee80d31f&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Couples room.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;a3c00005a0a49c4dafe172c1cea4ee1afe67b9cd&quot;,&quot;hash&quot;:&quot;a3c00005a0a49c4dafe172c1cea4ee1afe67b9cd&quot;,&quot;__identity&quot;:&quot;7d6c91b0-e3f4-450a-a1f9-5cc95d31b626&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+          <label __type="string">&lt;p&gt;Book this room&lt;/p&gt;</label>
+          <title __type="string">&lt;h1&gt;The Goose&lt;/h1&gt;</title>
+          <bgcolor __type="string">#F6F1EB</bgcolor>
          </properties>
         </variant>
        </node>
-       <node identifier="0cbfbf77-13d8-401f-95ce-6d16c0f69aca" nodeName="node-uoffdkk1lxlxk">
-        <variant sortingIndex="450" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Image" version="7" removed="" hidden="" hiddenInIndex="">
+       <node identifier="1c3dd8dc-97ac-4013-9514-ebbeefe433b5" nodeName="node-90n30jxh3v7r1">
+        <variant sortingIndex="200" workspace="live" nodeType="LustrupFarmhouse.Site:Collection.Wrapper" version="6" removed="" hidden="1" hiddenInIndex="">
          <dimensions>
           <language>da</language>
          </dimensions>
          <accessRoles __type="array"/>
-         <creationDateTime __type="object" __classname="DateTime">2020-11-16T15:45:40+01:00</creationDateTime>
-         <lastModificationDateTime __type="object" __classname="DateTime">2020-11-16T16:44:03+01:00</lastModificationDateTime>
-         <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-16T16:44:03+01:00</lastPublicationDateTime>
+         <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:28:53+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:52:33+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:52:33+01:00</lastPublicationDateTime>
+         <properties/>
+        </variant>
+        <node identifier="b77a7ce9-6a87-426c-ab2e-81e7be00058a" nodeName="node-ro0i86i4acy6n">
+         <variant sortingIndex="219" workspace="live" nodeType="LustrupFarmhouse.Site:Collection.Wrapper" version="2" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:28:53+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:29:24+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:29:24+01:00</lastPublicationDateTime>
+          <properties/>
+         </variant>
+         <node identifier="c2e42e60-976b-47fb-ad9b-a82413191997" nodeName="node-bf50n9yp80b7m">
+          <variant sortingIndex="338" workspace="live" nodeType="Neos.NodeTypes.ColumnLayouts:ThreeColumn" version="2" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>da</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:28:53+01:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:29:24+01:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:29:24+01:00</lastPublicationDateTime>
+           <properties>
+            <layout __type="string">25-50-25</layout>
+           </properties>
+          </variant>
+          <node identifier="20776e2e-dec0-457a-b210-057a06ddab79" nodeName="column0">
+           <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>da</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:28:53+01:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:29:24+01:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:29:24+01:00</lastPublicationDateTime>
+            <properties/>
+           </variant>
+          </node>
+          <node identifier="99f2514d-4370-44fb-86fd-75cf2a7ecfb9" nodeName="column1">
+           <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>da</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:28:53+01:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:29:24+01:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:29:24+01:00</lastPublicationDateTime>
+            <properties/>
+           </variant>
+           <node identifier="6c2fc8c9-b284-4bef-91d2-77f59f08fa8f" nodeName="node-7tflwheb7koh1">
+            <variant sortingIndex="250" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+             <dimensions>
+              <language>da</language>
+             </dimensions>
+             <accessRoles __type="array"/>
+             <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:28:53+01:00</creationDateTime>
+             <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:29:24+01:00</lastModificationDateTime>
+             <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:29:24+01:00</lastPublicationDateTime>
+             <properties>
+              <text __type="string">&lt;p&gt;This two-bedroom farmhouse apartment, set with its own terrace, sleeps max 6 adults. &amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;On the ground floor is a spacious bathroom, open plan kitchen with dining area and a cozy lounge. There are two bedrooms on the first floor and a additional toilet. A comfortable sofabed in the lounge provides two more beds. The downstairs of the apartment is accessible by a standard manual wheelchair.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;A service charge of 800 DKR will be added to your booking which includes: final cleaning, electricity &amp;amp; water, wifi, bedlinen &amp;amp; towels, cotbeds &amp;amp; highchairs (if needed).&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;h3&gt;The farmhouse apartment includes:&lt;/h3&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;· All kitchen equipment&lt;/p&gt;&lt;p&gt;· Coffee machine (including coffee, filters &amp;amp; teabags)&lt;/p&gt;&lt;p&gt;·&amp;nbsp;Washing up liquid, clothes washing liquid &amp;amp; fabric conditioner&lt;/p&gt;&lt;p&gt;· Cleaning kit with hand sanitizer &amp;amp; anti-bacterial cleaning spray&lt;/p&gt;&lt;p&gt;· Disposable gloves&lt;/p&gt;&lt;p&gt;· Microwave&lt;/p&gt;&lt;p&gt;· Dishwasher (including tabs)&lt;/p&gt;&lt;p&gt;·&amp;nbsp;Tea towel &amp;amp; cloth&lt;/p&gt;&lt;p&gt;· Hairdryer&lt;/p&gt;&lt;p&gt;· Mild handsoap&lt;/p&gt;&lt;p&gt;·&amp;nbsp;Toilet rolls (initial supply)&lt;/p&gt;&lt;p&gt;· Basic first aid kit&lt;/p&gt;&lt;p&gt;· Wifi, Smart TV with 24 channels&lt;/p&gt;&lt;p&gt;· Bedlinen&lt;/p&gt;&lt;p&gt;· Towels&lt;/p&gt;&lt;p&gt;·&amp;nbsp;Outdoor furniture&lt;/p&gt;&lt;p&gt;· Barbeque&lt;/p&gt;</text>
+             </properties>
+            </variant>
+           </node>
+           <node identifier="13cff078-7587-4346-9e54-6b31ba9ae2d6" nodeName="node-qdht5de1bmudl">
+            <variant sortingIndex="150" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Text" version="5" removed="" hidden="" hiddenInIndex="">
+             <dimensions>
+              <language>da</language>
+             </dimensions>
+             <accessRoles __type="array"/>
+             <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:28:53+01:00</creationDateTime>
+             <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:29:24+01:00</lastModificationDateTime>
+             <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:29:24+01:00</lastPublicationDateTime>
+             <properties>
+              <text __type="string">&lt;h2&gt;All features&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;</text>
+             </properties>
+            </variant>
+           </node>
+          </node>
+          <node identifier="58c9fa4c-9342-48aa-ab0d-e7f002e7b3aa" nodeName="column2">
+           <variant sortingIndex="300" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+            <dimensions>
+             <language>da</language>
+            </dimensions>
+            <accessRoles __type="array"/>
+            <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:28:53+01:00</creationDateTime>
+            <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:29:24+01:00</lastModificationDateTime>
+            <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:29:24+01:00</lastPublicationDateTime>
+            <properties/>
+           </variant>
+          </node>
+         </node>
+        </node>
+       </node>
+       <node identifier="5c5d02d0-f79a-4b44-9a0e-d5f301e7b41d" nodeName="node-majcz33ne05ij">
+        <variant sortingIndex="263" workspace="live" nodeType="Neos.NodeTypes.ColumnLayouts:TwoColumn" version="3" removed="" hidden="" hiddenInIndex="">
+         <dimensions>
+          <language>da</language>
+         </dimensions>
+         <accessRoles __type="array"/>
+         <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:30:27+01:00</creationDateTime>
+         <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:30:41+01:00</lastModificationDateTime>
+         <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:30:40+01:00</lastPublicationDateTime>
          <properties>
-          <image __type="object" __identifier="711e5419-f0e6-4e96-be20-f6b3b76c031c" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;711e5419-f0e6-4e96-be20-f6b3b76c031c&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Family-apartment-lustrup-farmhouse.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;a8592b47fe2fe5cd25281f1cf09d14ddd1313249&quot;,&quot;hash&quot;:&quot;a8592b47fe2fe5cd25281f1cf09d14ddd1313249&quot;,&quot;__identity&quot;:&quot;8d3d9351-92dc-473a-88e9-a183ab543933&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+          <layout __type="string">33-66</layout>
          </properties>
         </variant>
+        <node identifier="e48fb8c5-f20d-4694-874f-d4a21c818dd5" nodeName="column0">
+         <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:30:27+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:30:41+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:30:40+01:00</lastPublicationDateTime>
+          <properties/>
+         </variant>
+         <node identifier="d06b18ac-0c8b-40d9-8b2a-3232e9819576" nodeName="node-tnji0bmp2euey">
+          <variant sortingIndex="100" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Image" version="3" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>da</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:30:27+01:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:46:15+01:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:46:15+01:00</lastPublicationDateTime>
+           <properties>
+            <image __type="object" __identifier="456e7937-7f25-4a2d-af59-88e37565a008" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;456e7937-7f25-4a2d-af59-88e37565a008&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;0CF8B89F-3156-4C19-B258-46B66F55F6CB-69A32D22-8D75-4A83-9007-7E072DB9DD8D.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;75552aa11b9f3484884cf7b7fa413f0db22c9bcf&quot;,&quot;hash&quot;:&quot;75552aa11b9f3484884cf7b7fa413f0db22c9bcf&quot;,&quot;__identity&quot;:&quot;ae9486cb-15d6-45a5-8320-5005a6e18757&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           </properties>
+          </variant>
+         </node>
+        </node>
+        <node identifier="961720b1-a00c-419d-b890-23418be73455" nodeName="column1">
+         <variant sortingIndex="200" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+          <dimensions>
+           <language>da</language>
+          </dimensions>
+          <accessRoles __type="array"/>
+          <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:30:27+01:00</creationDateTime>
+          <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:30:41+01:00</lastModificationDateTime>
+          <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:30:40+01:00</lastPublicationDateTime>
+          <properties/>
+         </variant>
+         <node identifier="a6358549-a847-4ca4-85cc-2cf029f86001" nodeName="node-jujtaeg1plkv1">
+          <variant sortingIndex="100" workspace="live" nodeType="LustrupFarmhouse.Site:Content.Image" version="3" removed="" hidden="" hiddenInIndex="">
+           <dimensions>
+            <language>da</language>
+           </dimensions>
+           <accessRoles __type="array"/>
+           <creationDateTime __type="object" __classname="DateTime">2020-11-17T15:30:27+01:00</creationDateTime>
+           <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T15:46:58+01:00</lastModificationDateTime>
+           <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T15:46:58+01:00</lastPublicationDateTime>
+           <properties>
+            <image __type="object" __identifier="73fbc484-5628-4d92-a69f-a6fc2e8cd25d" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;73fbc484-5628-4d92-a69f-a6fc2e8cd25d&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;Group 81.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;0254b390140b54c0757a3c116ab061974943ceec&quot;,&quot;hash&quot;:&quot;0254b390140b54c0757a3c116ab061974943ceec&quot;,&quot;__identity&quot;:&quot;8f96d3f2-5854-4e05-a7a7-c0bc1dc28ced&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+           </properties>
+          </variant>
+         </node>
+        </node>
        </node>
       </node>
      </node>
@@ -1638,6 +2126,18 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2020-10-09T14:12:02+02:00</lastPublicationDateTime>
        <properties/>
       </variant>
+      <node identifier="14324629-ffa1-4bec-a746-9e3e94dbc4bb" nodeName="node-72vw0egok5j07">
+       <variant sortingIndex="314" workspace="live" nodeType="LustrupFarmhouse.Site:Collection.Wrapper" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2020-11-17T11:32:34+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T11:32:37+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T11:32:37+01:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+      </node>
       <node identifier="e99d8302-76c0-43db-bc96-32a47dff699a" nodeName="node-h36iu6yl02jyu">
        <variant sortingIndex="564" workspace="live" nodeType="LustrupFarmhouse.Site:Collection.Section" version="3" removed="" hidden="" hiddenInIndex="">
         <dimensions>
@@ -1817,6 +2317,18 @@
          </node>
         </node>
        </node>
+      </node>
+      <node identifier="c7e550b2-116f-463e-a364-f3e8fe24b7f2" nodeName="node-na8vl44clwfex">
+       <variant sortingIndex="261" workspace="live" nodeType="LustrupFarmhouse.Site:Collection.Wrapper" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions>
+         <language>da</language>
+        </dimensions>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2020-11-17T11:32:24+01:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2020-11-17T11:32:37+01:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2020-11-17T11:32:37+01:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
       </node>
       <node identifier="d40e316a-bffd-4286-bb00-dbf100242aee" nodeName="node-rtb1p7tqfrk1q">
        <variant sortingIndex="257" workspace="live" nodeType="LustrupFarmhouse.Site:Templates.TemplateOne" version="10" removed="" hidden="" hiddenInIndex="">
