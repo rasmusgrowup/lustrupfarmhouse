@@ -20,7 +20,7 @@ prototype(LustrupFarmhouse.Site:Component.Header) < prototype(Neos.Fusion:Compon
     }
 
     imageUri = Neos.Fusion:ResourceUri {
-    path = 'resource://LustrupFarmhouse.Site/Public/Frontend/assets/Lustrup-farmhouse-sofaer.jpg'
+    path = 'resource://LustrupFarmhouse.Site/Public/Frontend/assets/Lustrup-farmhouse-sofaer.JPG'
     }
 
     faceUri = Neos.Fusion:ResourceUri {
