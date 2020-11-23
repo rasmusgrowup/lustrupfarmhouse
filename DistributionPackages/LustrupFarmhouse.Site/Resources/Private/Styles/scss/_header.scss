@@ -13,7 +13,7 @@
 }
 
 .navigation-item {
-    line-height: 1.4;
+    line-height: 1.25;
 
     &:hover {
         a {
@@ -175,7 +175,7 @@
                 li {
                     overflow: hidden;
                     a {
-                        font-size: clamp(40px, 9vw, 70px);
+                        font-size: clamp(40px, 6vw, 80px);
                         font-weight: 700;
                     }
                 }
