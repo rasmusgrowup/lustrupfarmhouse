@@ -152,6 +152,7 @@
     }
 
     .menu {
+        animation-direction: normal;
         animation-fill-mode: forwards;
         background-color: $sand;
         display: flex;
