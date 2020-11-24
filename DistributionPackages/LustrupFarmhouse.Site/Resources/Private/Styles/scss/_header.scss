@@ -152,6 +152,7 @@
     }
 
     .menu {
+        animation-fill-mode: forwards;
         background-color: $sand;
         display: flex;
         height: 100vh;
