@@ -35,16 +35,13 @@ prototype(LustrupFarmhouse.Site:Templates.TemplateThree) < prototype(Neos.Neos:C
         property = 'text'
         attributes.class = 'aos'
     }
-    
+
     whiteText = ${q(node).property('whiteText') ? 'white-text' : ''}
     bgcolor = ${'background-color:' + q(node).property('bgcolor')}
 
     label = Neos.Neos:Editable {
         property = 'label'
     }
-    link = ${q(node).property('link')}
-    linkTarget = ${q(node).property('linkTarget') ? '_blank' : '_self'}
-    renderAsLink = ${site.context.inBackend ? false : true}
 
 
 renderer = afx`
@@ -64,7 +61,6 @@ renderer = afx`
                 <div class={"column-content aos" + (props.booleanClass ? ' ' + props.booleanClass : '')}>
                     {props.title}
                     {props.text}
-                    <Carbon.Link:Link link={props.link} additionalClass="reg-button">{props.label}</Carbon.Link:Link>
                 </div>
             </div>
             <div class="templateThree-image">

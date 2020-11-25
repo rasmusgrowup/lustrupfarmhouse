@@ -29,10 +29,6 @@ prototype(LustrupFarmhouse.Site:Templates.TemplateOne) < prototype(Neos.Neos:Con
     label = Neos.Neos:Editable {
         property = 'label'
     }
-    link = ${q(node).property('link')}
-    linkTarget = ${q(node).property('linkTarget') ? '_blank' : '_self'}
-    renderAsLink = ${site.context.inBackend ? false : true}
-
 
 renderer = afx`
         <section class="templateOne">
@@ -52,7 +48,6 @@ renderer = afx`
                     class={"column-content aos" + (props.whiteText ? ' ' + props.whiteText : '')} >
                     {props.title}
                     {props.text}
-                    <Carbon.Link:Link link={props.link} additionalClass="reg-button">{props.label}</Carbon.Link:Link>
                 </div>
             </div>
         </section>

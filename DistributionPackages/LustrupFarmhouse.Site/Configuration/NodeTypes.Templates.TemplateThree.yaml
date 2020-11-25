@@ -91,23 +91,3 @@
               a: true
       options:
         silhouette: 'codeq.text.title'
-    label:
-      ui:
-        inline:
-          editorOptions:
-            placeholder: '<p>Enter link...</p>'
-            hyphens: true
-            formatting:
-              left: true
-              right: true
-              center: true
-      options:
-        silhouette: text.free
-    link:
-      type: string
-      reloadIfChanged: true
-      ui:
-        label: 'Link target'
-        inspector:
-          group: image
-          editor: Neos.Neos/Inspector/Editors/LinkEditor

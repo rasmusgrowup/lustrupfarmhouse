@@ -29,9 +29,6 @@ prototype(LustrupFarmhouse.Site:Templates.TemplateTwo) < prototype(Neos.Neos:Con
     label = Neos.Neos:Editable {
         property = 'label'
     }
-    link = ${q(node).property('link')}
-    linkTarget = ${q(node).property('linkTarget') ? '_blank' : '_self'}
-    renderAsLink = ${site.context.inBackend ? false : true}
 
 
 renderer = afx`
@@ -40,7 +37,6 @@ renderer = afx`
                 <div class={"column-content aos" + (props.booleanClass ? ' ' + props.booleanClass : '')}>
                     {props.title}
                     {props.text}
-                    <Carbon.Link:Link link={props.link} additionalClass="reg-button">{props.label}</Carbon.Link:Link>
                 </div>
             </div>
             <div class="templateTwo-image">
