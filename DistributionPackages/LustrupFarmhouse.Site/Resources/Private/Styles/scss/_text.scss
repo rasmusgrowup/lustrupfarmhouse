@@ -11,3 +11,12 @@
 h3 {
     line-height: 1.25;
 }
+
+h6 {
+    letter-spacing: 3px;
+    font-family: $font;
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: .5em;
+    text-transform: uppercase;
+}
