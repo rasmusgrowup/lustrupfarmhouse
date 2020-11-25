@@ -11,6 +11,19 @@
     inlineEditable: true
     reloadIfChanged: true
   properties:
+    smallTitle:
+        ui:
+          inline:
+            editorOptions:
+                placeholder: '<p>Enter text here...</p>'
+                autoparagraph: true
+                formatting:
+                    p: true
+                    left: true
+                    right: true
+                    center: true
+          options:
+            silhouette: text.free
     text:
       ui:
         inline:

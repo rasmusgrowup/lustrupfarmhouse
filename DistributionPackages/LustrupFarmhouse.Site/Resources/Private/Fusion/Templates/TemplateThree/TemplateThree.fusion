@@ -31,6 +31,10 @@ prototype(LustrupFarmhouse.Site:Templates.TemplateThree) < prototype(Neos.Neos:C
         property = 'title'
     }
 
+    smallTitle = Neos.Neos:Editable {
+        property = 'smallTitle'
+    }
+
     text = Neos.Neos:Editable {
         property = 'text'
         attributes.class = 'aos'
@@ -59,8 +63,15 @@ renderer = afx`
             </div>
             <div class="templateThree-column" style={props.bgcolor}>
                 <div class={"column-content aos" + (props.booleanClass ? ' ' + props.booleanClass : '')}>
-                    {props.title}
-                    {props.text}
+                    <div class="small-title">
+                        {props.smallTitle}
+                    </div>
+                    <div class="">
+                        {props.title}
+                    </div>
+                    <div class="">
+                        {props.text}
+                    </div>
                 </div>
             </div>
             <div class="templateThree-image">

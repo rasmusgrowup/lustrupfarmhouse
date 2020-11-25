@@ -56,6 +56,17 @@ $column-breakpoint: 768px;
             display: block;
             width: 100%;
 
+            .small-title {
+                letter-spacing: 3px;
+                font-weight: 600;
+                margin-bottom: .5em;
+                text-transform: uppercase;
+
+                p {
+                    font-size: 1em;
+                }
+            }
+
             @media only screen and (min-width: $column-breakpoint) {
                 margin: 0 auto;
                 padding: 3em 1em;
