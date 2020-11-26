@@ -1,4 +1,4 @@
-prototype(LustrupFarmhouse.Site:Templates.TemplateThree) < prototype(Neos.Neos:ContentComponent) {
+prototype(LustrupFarmhouse.Site:Templates.TemplateFour) < prototype(Neos.Neos:ContentComponent) {
 
     src = Neos.Fusion:Case {
         image {
@@ -47,28 +47,31 @@ prototype(LustrupFarmhouse.Site:Templates.TemplateThree) < prototype(Neos.Neos:C
         property = 'label'
     }
 
-    infoOne = Neos.Neos:Editable {
-        property = 'infoOne'
-    }
-    titleOne = Neos.Neos:Editable {
-        property = 'titleOne'
-    }
-
-    infoTwo = Neos.Neos:Editable {
-        property = 'infoTwo'
-    }
-    titleTwo = Neos.Neos:Editable {
-        property = 'titleTwo'
-    }
-
 
 renderer = afx`
-        <section class="templateThree">
-            <div class="templateThree-image">
-                <div class="rooms-cta">
-                    <div class="rooms-cta-info">{props.infoOne}</div>
-                    <div class="rooms-cta-title">{props.titleOne}</div>
+        <section class="templateFour">
+            <div class="templateFour-column" style={props.bgcolor}>
+                <div class={"column-content aos" + (props.whiteText ? ' ' + props.whiteText : '')}>
+                    <div class="">
+                        {props.title}
+                    </div>
+                    <div class="column-image">
+                        <Sitegeist.Lazybones:Image
+                            class="container-image"
+                            lazy={true}
+                            lazyWidth={500}
+                            imageSource={props.src2}
+                            srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
+                            sizes={props.sizes}
+                            alt={props.alternativeText2}
+                            />
+                    </div>
+                    <div class="">
+                        {props.text}
+                    </div>
                 </div>
+            </div>
+            <div class="templateFour-image">
                 <Sitegeist.Lazybones:Image
                     class="container-image"
                     lazy={true}
@@ -77,34 +80,6 @@ renderer = afx`
                     srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
                     sizes={props.sizes}
                     alt={props.alternativeText}
-                    />
-            </div>
-            <div class="templateThree-column" style={props.bgcolor}>
-                <div class={"column-content aos" + (props.whiteText ? ' ' + props.whiteText : '')}>
-                    <div class="small-title">
-                        {props.smallTitle}
-                    </div>
-                    <div class="">
-                        {props.title}
-                    </div>
-                    <div class="">
-                        {props.text}
-                    </div>
-                </div>
-            </div>
-            <div class="templateThree-image">
-                <div class="rooms-cta">
-                    <div class="rooms-cta-info">{props.infoTwo}</div>
-                    <div class="rooms-cta-title">{props.titleTwo}</div>
-                </div>
-                <Sitegeist.Lazybones:Image
-                    class="container-image"
-                    lazy={true}
-                    lazyWidth={200}
-                    imageSource={props.src2}
-                    srcset="320w, 400w, 480w, 600w, 640w, 720w, 768w, 800w, 960w, 1024px, 1280w, 1440w, 1600w, 1680w, 1920w, 2560w"
-                    sizes={props.sizes}
-                    alt={props.alternativeText2}
                     />
             </div>
         </section>

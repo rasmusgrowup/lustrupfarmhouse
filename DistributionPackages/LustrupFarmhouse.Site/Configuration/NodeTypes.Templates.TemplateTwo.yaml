@@ -7,7 +7,7 @@
     group: 'structure'
     label: Template 2
     icon: icon-pager
-    position: 220
+    position: 320
     inlineEditable: true
     reloadIfChanged: true
   properties:

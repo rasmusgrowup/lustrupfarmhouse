@@ -1,6 +1,6 @@
 $column-breakpoint: 768px;
 
-.templateOne, .templateTwo, .templateThree {
+.templateOne, .templateTwo, .templateThree, .templateFour {
     display: block;
     margin-bottom: .25em;
 
@@ -10,9 +10,10 @@ $column-breakpoint: 768px;
         justify-content: center;
         height: 58vw;
         max-height: calc(100vh - 120px);
+        min-height: 600px;
     }
 
-    .templateOne-image, .templateTwo-image, .templateThree-image {
+    .templateOne-image, .templateTwo-image, .templateThree-image, .templateFour-image {
         flex: 3;
 
         img {
@@ -29,6 +30,7 @@ $column-breakpoint: 768px;
 
             @media only screen and (min-width: $column-breakpoint) {
                 max-height: calc(100vh - 120px);
+                min-height: 600px;
             }
         }
     }
@@ -45,7 +47,7 @@ $column-breakpoint: 768px;
         }
     }
 
-    .templateOne-column, .templateTwo-column, .templateThree-column {
+    .templateOne-column, .templateTwo-column, .templateThree-column, .templateFour-column {
         display: block;
         flex: 2;
         padding: 5em 1em;
@@ -64,6 +66,20 @@ $column-breakpoint: 768px;
 
                 p {
                     font-size: 1em;
+                }
+            }
+
+            .column-image {
+                display: block;
+                margin: 1em auto;
+                width: 75%;
+                //padding-top: 120%;
+                position: relative;
+
+                img {
+                    display: block;
+                    margin: 0 auto;
+                    width: 100%;
                 }
             }
 
@@ -132,5 +148,62 @@ $column-breakpoint: 768px;
 
     .templateThree-column {
         flex: 1;
+    }
+}
+
+.templateThree {
+    .templateThree-image {
+        position: relative;
+        .rooms-cta {
+            display: block;
+            padding: 1em 2em;
+            position: absolute;
+            text-align: left;
+            width: auto;
+
+            p, strong, a {
+                color: white;
+
+                &:after {
+                    background-color: white;
+                }
+            }
+
+            .rooms-cta-title {
+                p {
+                    font-family: $headline-font;
+                    font-size: 25px !important;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        &:first-child {
+            .rooms-cta {
+                @media only screen and (max-width: 449px) {
+                    bottom: .5em;
+                    left: .5em;
+                }
+
+                @media only screen and (min-width: 450px) {
+                    right: -1em;
+                    top: 1em;
+                }
+            }
+        }
+
+        &:last-child {
+            .rooms-cta {
+                @media only screen and (max-width: 450px) {
+                    bottom: .5em;
+                    left: .5em;
+                }
+
+                @media only screen and (min-width: 450px) {
+                    bottom: 1em;
+                    left: -1em;
+                }
+            }
+        }
     }
 }

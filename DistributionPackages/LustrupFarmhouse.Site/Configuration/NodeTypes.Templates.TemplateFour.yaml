@@ -1,60 +1,19 @@
-'LustrupFarmhouse.Site:Templates.TemplateThree':
+'LustrupFarmhouse.Site:Templates.TemplateFour':
   superTypes:
     'Neos.Neos:Content': true
     'LustrupFarmhouse.Site:Mixin.Image': true
     'LustrupFarmhouse.Site:Mixin.Template': true
   ui:
     group: 'structure'
-    label: Template 3
+    label: Template 4
     icon: icon-pager
-    position: 330
+    position: 340
     inlineEditable: true
     reloadIfChanged: true
   properties:
-    infoOne:
-      ui:
-        inline:
-          editorOptions:
-            placeholder: 'Square metres + number of people sleeping'
-      options:
-        silhouette: text.free
-    titleOne:
-      ui:
-        inline:
-          editorOptions:
-            placeholder: 'Name the room'
-      options:
-        silhouette: text.free
-    infoTwo:
-      ui:
-        inline:
-          editorOptions:
-            placeholder: 'Square metres + number of people sleeping'
-      options:
-        silhouette: text.free
-    titleTwo:
-      ui:
-        inline:
-          editorOptions:
-            placeholder: 'Name the room'
-      options:
-        silhouette: text.free
-    smallTitle:
-        ui:
-          inline:
-            editorOptions:
-                placeholder: '<p>Enter text here...</p>'
-                autoparagraph: true
-                formatting:
-                    p: true
-                    left: true
-                    right: true
-                    center: true
-          options:
-            silhouette: text.free
     image2:
       ui:
-        label: 'Right image'
+        label: 'Small image'
         inspector:
           group: 'image'
       options:

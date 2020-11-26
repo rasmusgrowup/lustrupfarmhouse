@@ -38,7 +38,7 @@ prototype(LustrupFarmhouse.Site:Templates.TemplateTwo) < prototype(Neos.Neos:Con
 renderer = afx`
         <section class="templateTwo">
             <div class="templateTwo-column" style={props.bgcolor}>
-                <div class={"column-content aos" + (props.booleanClass ? ' ' + props.booleanClass : '')}>
+                <div class={"column-content aos" + (props.whiteText ? ' ' + props.whiteText : '')}>
                     <div class="small-title">
                         {props.smallTitle}
                     </div>
