@@ -55,8 +55,8 @@ prototype(LustrupFarmhouse.Site:Component.Header) < prototype(Neos.Fusion:Compon
                     <LustrupFarmhouse.Site:Component.Header.MenuItemsRenderer items={props.menuItems} />
                 </div>
                 <div class="social-links">
-                    <a href="facebook.com/lustrupfarmhouse"><img src={props.faceUri} alt=""/>Facebook</a>
-                    <a href="instagram.com/lustrupfarmhouse"><img src={props.instaUri} alt=""/>Instagram</a>
+                    <a href="https://facebook.com/lustrupfarmhouse" target="_blank"><img src={props.faceUri} alt=""/>Facebook</a>
+                    <a href="https://instagram.com/lustrup_farmhouse" target="_blank"><img src={props.instaUri} alt=""/>Instagram</a>
                 </div>
                 <div class="navigation-image">
                     <img src={props.imageUri} alt="" />
@@ -84,6 +84,13 @@ prototype(LustrupFarmhouse.Site:Component.Header) < prototype(Neos.Fusion:Compon
                     <div class="booking-cta">
                         <a href="https://booking.octopuspms.com/RoomBook?Code=c8ba02e5-da5a-4b41-8626-37cb4a483e2e" target="_blank"><span>Book your stay</span></a>
                     </div>
+                </div>
+            </div>
+
+            <div class="sticky-social">
+                <div class="sticky-social-links">
+                    <a href="https://instagram.com/lustrup_farmhouse" target="_blank"><img src={props.instaUri} alt=""/>Instagram</a>
+                    <a href="https://facebook.com/lustrupfarmhouse" target="_blank"><img src={props.faceUri} alt=""/>Facebook</a>
                 </div>
             </div>
         </header>

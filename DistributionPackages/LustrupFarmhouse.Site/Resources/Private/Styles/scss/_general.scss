@@ -6,8 +6,11 @@ body {
 .main-content {
     padding-top: 75px;
     position: relative;
+    width: 100%;
 
-    @media only screen and (min-width: $tablet) {
+    @media only screen and (min-width: $desktop) {
+        margin: 0 auto;
         padding-top: 95px;
+        width: calc(100% - 120px);
     }
 }

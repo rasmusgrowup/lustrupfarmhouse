@@ -271,7 +271,7 @@
 
     @media only screen and (min-width: $desktop) {
         .topbar {
-            padding: 15px 4vw;
+            padding: 15px 60px;
             transition: $transition;
 
             .options {
@@ -330,5 +330,46 @@
                 }
             }
         }
+    }
+}
+
+.sticky-social {
+    display: block;
+    position: fixed;
+    transform: rotate(-90deg) translateX(20%);
+    top: 50%;
+    left: -80px;
+
+    .sticky-social-links {
+        display: inline-flex;
+
+        a {
+            align-items: center;
+            color: $black;
+            display: flex;
+            font-size: .75em;
+            font-weight: 300;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+
+            &:hover {
+                color: $orange;
+            }
+
+            &:first-child {
+                margin-right: 2.5em;
+            }
+
+            img {
+                display: block;
+                margin-right: .75em;
+                object-fit: contain;
+                width: 100%;
+            }
+        }
+    }
+
+    @media only screen and (max-width: $desktop) {
+        display: none;
     }
 }
