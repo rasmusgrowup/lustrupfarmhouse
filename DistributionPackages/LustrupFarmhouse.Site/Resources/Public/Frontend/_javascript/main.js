@@ -56,7 +56,7 @@ let animateIn = document.querySelectorAll('.aos');
             scrollTrigger: {
                 trigger: elem,
                 toggleActions: "play none play reverse",
-				markers: true,
+				//markers: true,
 				start: '-50 bottom'
             },
 			y: 100,
