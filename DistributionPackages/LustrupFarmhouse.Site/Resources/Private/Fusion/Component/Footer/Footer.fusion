@@ -1,6 +1,13 @@
 prototype(LustrupFarmhouse.Site:Component.Footer) < prototype(Neos.Neos:ContentComponent) {
     @context.node = ${site}
     menuItems = Neos.Neos:MenuItems
+    navigationTrans = ${I18n.translate('LustrupFarmhouse.Site:NodeTypes.Content.Footer:navigationTrans')}
+    addressTrans = ${I18n.translate('LustrupFarmhouse.Site:NodeTypes.Content.Footer:addressTrans')}
+    contactTrans = ${I18n.translate('LustrupFarmhouse.Site:NodeTypes.Content.Footer:contactTrans')}
+    termsTrans = ${I18n.translate('LustrupFarmhouse.Site:NodeTypes.Content.Footer:termsTrans')}
+    cookieTrans = ${I18n.translate('LustrupFarmhouse.Site:NodeTypes.Content.Footer:cookieTrans')}
+    languageTrans = ${I18n.translate('LustrupFarmhouse.Site:NodeTypes.Content.Footer:languageTrans')}
+    selectLang = ${I18n.translate('LustrupFarmhouse.Site:NodeTypes.Content.Footer:selectLang')}
     year = ${Date.format(Date.now(), 'Y')}
     footerInfo = Neos.Neos:Editable {
         node = ${site}
@@ -19,12 +26,12 @@ prototype(LustrupFarmhouse.Site:Component.Footer) < prototype(Neos.Neos:ContentC
             <div class="footer-content">
                 <div class="footer-navigation">
                     <header>
-                        Navigation
+                        {props.navigationTrans}
                     </header>
                     <LustrupFarmhouse.Site:Component.Header.MenuItemsRenderer items={props.menuItems} />
                 </div>
                 <div class="footer-address">
-                    <header>Address</header>
+                    <header>{props.addressTrans}</header>
                     <ul>
                         <li>Svengesvej 19</li>
                         <li>DK-6760 Ribe</li>
@@ -33,7 +40,7 @@ prototype(LustrupFarmhouse.Site:Component.Footer) < prototype(Neos.Neos:ContentC
                     </ul>
                 </div>
                 <div class="footer-contact">
-                    <header>Contact us</header>
+                    <header>{props.contactTrans}</header>
                     <ul>
                         <li><a href="tel:21992805">21992805</a></li>
                         <li><a href="mailto:info@lustrupfarmhouse.dk">info@lustrupfarmhouse.dk</a></li>
@@ -43,17 +50,17 @@ prototype(LustrupFarmhouse.Site:Component.Footer) < prototype(Neos.Neos:ContentC
             <!-- <div>{props.footerInfo}</div> -->
             <div class="footer-copyright">
                 <ul>
-                    <li>&copy; {props.year}  Lustrup Farmhouse Aps</li>
-                    <li><a href="/terms">Terms & Condition</a></li>
-                    <li><a href="#">Manage Cookie Settings</a></li>
+                    <li>&copy; {props.year}  Lustrup Farmhouse I/s</li>
+                    <li><a href="/terms">{props.termsTrans}</a></li>
+                    <li><a href="#">{props.cookieTrans}</a></li>
                     <li>
                         <div class="language-selector">
-                            <button type="button" name="button" id="openLanguageMenu">Choose a language</button>
+                            <button type="button" name="button" id="openLanguageMenu">{props.languageTrans}</button>
                             <div id="languageModal" class="language-modal">
                                 <div class="modal-content">
                                     <span class="close-modal">&times;</span>
                                     <div class="modal-text">
-                                        <p>Select your language</p>
+                                        <p>{props.selectLang}</p>
                                     </div>
                                     {props.languageMenu}
                                 </div>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="LustrupFarmhouse.Site" source-language="da" datatype="plaintext" target-language="de">
+        <body>
+            <trans-unit id="navigationTrans">
+                <source>Navigation</source>
+                <target xml:lang="de" state="translated">Navigation</target>
+            </trans-unit>
+            <trans-unit id="addressTrans">
+                <source>Addresse</source>
+                <target xml:lang="de" state="translated">Addresse</target>
+            </trans-unit>
+            <trans-unit id="contactTrans">
+                <source>Kontakt os</source>
+                <target xml:lang="de" state="translated">Kontakt</target>
+            </trans-unit>
+            <trans-unit id="termsTrans">
+                <source>Vilkår og betingelser</source>
+                <target xml:lang="de" state="translated">Terms and conditions</target>
+            </trans-unit>
+            <trans-unit id="cookieTrans">
+                <source>Administrér cookie-indstillinger</source>
+                <target xml:lang="de" state="translated">Cookie-Einstellungen</target>
+            </trans-unit>
+            <trans-unit id="languageTrans">
+                <source>Vælg sprog</source>
+                <target xml:lang="de" state="translated">Sprachauswahl</target>
+            </trans-unit>
+            <trans-unit id="selectLang">
+                <source>Vælg dit sprog</source>
+                <target xml:lang="de" state="translated">Sprachauswahl</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,15 +1,18 @@
 <?xml version="1.0"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-    <file original="" source-language="en" datatype="plaintext">
+    <file original="" source-language="da" datatype="plaintext"  target-language="de">
         <body>
             <trans-unit id="ui.label">
-                <source>Homepage</source>
+                <source>Forside</source>
+                <target xml:lang="en" state="translated">Homepage</target>
             </trans-unit>
             <trans-unit id="properties.footerInfo.ui.inline.editorOptions.placeholder">
-                <source>Enter contact info here...</source>
+                <source>Indtast kontaktoplysninger her ...</source>
+                <target xml:lang="en" state="translated">Enter contact info here...</target>
             </trans-unit>
             <trans-unit id="properties.footerItems">
-                <source>Footer Menu Items</source>
+                <source>Footer Menu punkter</source>
+                <target xml:lang="en" state="translated">Footer Menu Items</target>
             </trans-unit>
         </body>
     </file>

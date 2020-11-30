@@ -1,4 +1,6 @@
 prototype(LustrupFarmhouse.Site:Component.Header) < prototype(Neos.Fusion:Component) {
+    bookOphold = ${I18n.translate('LustrupFarmhouse.Site:NodeTypes.Content.Header:bookOphold')}
+
     homeLink = Neos.Neos:NodeUri {
         node = ${site}
     }
@@ -82,7 +84,7 @@ prototype(LustrupFarmhouse.Site:Component.Header) < prototype(Neos.Fusion:Compon
 
                 <div class="options flex-equal">
                     <div class="booking-cta">
-                        <a href="https://booking.octopuspms.com/RoomBook?Code=c8ba02e5-da5a-4b41-8626-37cb4a483e2e" target="_blank"><span>Book ophold</span></a>
+                        <a href="https://booking.octopuspms.com/RoomBook?Code=c8ba02e5-da5a-4b41-8626-37cb4a483e2e" target="_blank"><span>{props.bookOphold}</span></a>
                     </div>
                 </div>
             </div>
