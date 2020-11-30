@@ -58,10 +58,15 @@ $column-breakpoint: 768px;
             display: block;
             width: 100%;
 
+            .big-title {
+                margin-bottom: 1.5em;
+            }
+
             .small-title {
-                letter-spacing: 3px;
-                font-weight: 600;
-                margin-bottom: .5em;
+                letter-spacing: .5em;
+                font-size: .8em;
+                font-weight: 400;
+                margin-bottom: 1em;
                 text-transform: uppercase;
 
                 p {

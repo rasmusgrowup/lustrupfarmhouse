@@ -31,9 +31,10 @@
     z-index: 99;
 
     .info-bar {
-        background-color: $orange;
+        background-color: $sand;
         text-align: center;
         padding: .5em;
+        position: relative;
         z-index: 10;
     }
 
@@ -123,48 +124,122 @@
             display: block;
             text-align: right;
 
-            .language-selector, .booking-cta {
-                display: inline-block;
-                padding-left: 15px;
-            }
+            .language-selector {
+                display: block;
+                z-index: 9;
 
-            .booking-cta {
-                //text-decoration: underline;
-                line-height: 1;
-                position: relative;
-
-                a {
-                    display: inline-block;
+                button {
+                    align-items: center;
                     color: $black;
-                    font-size: 10px;
-                    font-weight: 700;
-                    line-height: 1.75;
-                    //margin-top: 1em;
-                    transition: .25s;
+                    display: flex;
+                    font-size: .8em;
+                    font-weight: 600;
+                    margin: 0 auto;
+                    padding: 0;
+                    text-transform: uppercase;
 
                     @media only screen and (min-width: $desktop) {
                         font-size: 1em;
                     }
 
-                    &:after {
-                        background-color: $black;
-                        display: block;
-                        content: '';
-                        height: 2px;
-                        width: 100%;
-                        transition: .25s;
+                    img {
+                        display: inline-block;
+                        height: auto;
+                        margin-left: .5em;
+                        margin-bottom: 0;
+                        width: 1em;
                     }
+                }
+
+                .language-modal {
+                    background-color: rgb(0,0,0); /* Fallback color */
+                    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+                    display: none; /* Hidden by default */
+                    height: 100vh; /* Full height */
+                    left: 0;
+                    overflow: auto; /* Enable scroll if needed */
+                    position: fixed; /* Stay in place */
+                    top: 0;
+                    width: 100vw; /* Full width */
+                    z-index: 1; /* Sit on top */
+
+                    .modal-content {
+                        background-color: #fefefe;
+                        //border-radius: 4px;
+                        left: 50%;
+                        margin: 0 auto;
+                        max-width: 420px;
+                        padding: 40px 20px;
+                        position: absolute;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                        width: 80%; /* Could be more or less, depending on screen size */
+
+                        .language-list, .modal-text {
+                            text-align: center;
+                        }
+
+                        .modal-text {
+                            margin-bottom: 20px;
+                            p {
+                                font-size: 1.2em;
+                            }
+                        }
+
+                        .language-list {
+                            li {
+                                a {
+                                    color: $black;
+                                    font-size: 1.5em;
+                                    font-weight: 400;
+                                    text-decoration: none;
+
+                                    &:hover {
+                                        color: $orange;
+                                    }
+                                }
+                            }
+
+                            .language-current {
+                                //text-decoration: underline;
+                                a {
+                                    color: $orange;
+                                }
+                            }
+                        }
+
+                        /* The Close Button */
+                        .close-modal {
+                            color: #aaa;
+                            font-size: 60px;
+                            font-weight: 400;
+                            line-height: .5;
+                            position: absolute;
+                            top: 10px;
+                            right: 10px;
+                        }
+
+                        .close-modal:hover,
+                        .close-modal:focus {
+                          color: black;
+                          text-decoration: none !important;
+                          cursor: pointer;
+                        }
+                    }
+                }
+
+                #openLanguageMenu {
+                    background-color: transparent;
+                    border: none;
+                    //color: $black;
+                    font-family: $TOMMY-font;
+                    //font-weight: 500;
+                    //transition: $transition;
 
                     &:hover {
                         color: $orange;
-
-                            &:after {
-                            background-color: $orange;
-                            display: block;
-                            content: '';
-                            height: 2px;
-                            width: 100%;
-                        }
+                        cursor: pointer;
+                        //text-decoration: underline;
                     }
                 }
             }
@@ -187,8 +262,8 @@
         //transition-timing-function: $easing;
 
         .navigation-content {
-            left: 4vw;
-            top: 35%;
+            left: 5vw;
+            top: 40%;
             position: absolute;
             transform: translateY(-50%);
             z-index: 2;
@@ -204,26 +279,26 @@
             }
 
             @media only screen and (min-width: 414px) {
-                top: 40%;
+                top: 45%;
             }
 
             @media only screen and (min-width: $desktop) {
-                top: 50%;
+                top: 48%;
             }
         }
 
         .social-links {
             display: flex;
             position: absolute;
-            bottom: 20vh;
-            left: 4vw;
+            bottom: 35vh;
+            left: 5vw;
 
             @media only screen and (min-width: 414px) {
-                bottom: 10vh;
+                bottom: 5vw;
             }
 
             @media only screen and (min-width: $desktop) {
-                bottom: 4vh;
+                bottom: 5vw;
             }
 
             a {
@@ -353,6 +428,36 @@
     }
 }
 
+.booking-cta {
+    background-color: $earth;
+    //-webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.1), 0px 0px 12px 0px rgba(0,0,0,0.08);
+    //box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.1), 0px 0px 12px 0px rgba(0,0,0,0.08);
+    bottom: 1em;
+    border-radius: 3px;
+    display: table;
+    font-family: $headline-font;
+    //text-decoration: underline;
+    line-height: 1;
+    padding: .5em 2em;
+    position: fixed;
+    right: 1em;
+
+    @media only screen and (min-width: $desktop) {
+        bottom: 60px;
+        right: 60px;
+    }
+
+    a {
+        display: inline-block;
+        color: white;
+        font-size: 1.2em;
+        font-weight: 700;
+        line-height: 1.75;
+        //margin-top: 1em;
+        transition: .25s;
+    }
+}
+
 .sticky-social {
     display: block;
     position: fixed;
@@ -391,99 +496,5 @@
 
     @media only screen and (max-width: $desktop) {
         display: none;
-    }
-}
-
-.language-selector {
-    .language-modal {
-        background-color: rgb(0,0,0); /* Fallback color */
-        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-        display: none; /* Hidden by default */
-        height: 100vh; /* Full height */
-        left: 0;
-        overflow: auto; /* Enable scroll if needed */
-        position: fixed; /* Stay in place */
-        top: 0;
-        width: 100vw; /* Full width */
-        z-index: 1; /* Sit on top */
-
-        .modal-content {
-            background-color: #fefefe;
-            //border-radius: 4px;
-            left: 50%;
-            margin: 0 auto;
-            max-width: 420px;
-            padding: 40px 20px;
-            position: absolute;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            width: 80%; /* Could be more or less, depending on screen size */
-
-            .language-list, .modal-text {
-                text-align: center;
-            }
-
-            .modal-text {
-                margin-bottom: 20px;
-                p {
-                    font-size: 1.2em;
-                }
-            }
-
-            .language-list {
-                li {
-                    a {
-                        color: $black;
-                        font-size: 1.5em;
-                        font-weight: 400;
-                        text-decoration: none;
-
-                        &:hover {
-                            color: $orange;
-                        }
-                    }
-                }
-
-                .language-current {
-                    //text-decoration: underline;
-                    a {
-                        color: $orange;
-                    }
-                }
-            }
-
-            /* The Close Button */
-            .close-modal {
-                color: #aaa;
-                font-size: 60px;
-                font-weight: 400;
-                line-height: .5;
-                position: absolute;
-                top: 10px;
-                right: 10px;
-            }
-
-            .close-modal:hover,
-            .close-modal:focus {
-              color: black;
-              text-decoration: none !important;
-              cursor: pointer;
-            }
-        }
-    }
-
-    #openLanguageMenu {
-        background-color: transparent;
-        border: none;
-        //color: $black;
-        font-family: $TOMMY-font;
-        font-weight: 500;
-        //transition: $transition;
-
-        &:hover {
-            color: $orange;
-            cursor: pointer;
-            //text-decoration: underline;
-        }
     }
 }

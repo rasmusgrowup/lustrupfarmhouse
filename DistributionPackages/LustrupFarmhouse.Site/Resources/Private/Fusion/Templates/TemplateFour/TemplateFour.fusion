@@ -52,7 +52,7 @@ renderer = afx`
         <section class="templateFour">
             <div class="templateFour-column" style={props.bgcolor}>
                 <div class={"column-content aos" + (props.whiteText ? ' ' + props.whiteText : '')}>
-                    <div class="">
+                    <div class="big-title">
                         {props.title}
                     </div>
                     <div class="column-image">

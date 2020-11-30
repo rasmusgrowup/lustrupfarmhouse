@@ -24,13 +24,6 @@ span.onclick = function() {
   modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-	if (event.target == modal) {
-	modal.style.display = "none";
-	}
-}
-
 // Show & Hide menu on scroll down / up
 var new_scroll_position = 0;
 var last_scroll_position;
@@ -73,3 +66,11 @@ let animateIn = document.querySelectorAll('.aos');
 			ease: "power3.out"
         })
     })
+
+	gsap.from(".booking-cta", {
+		y: 100,
+		opacity: 0,
+		delay: 1.5,
+		duration: 1.5,
+		ease: "power3.out"
+	})

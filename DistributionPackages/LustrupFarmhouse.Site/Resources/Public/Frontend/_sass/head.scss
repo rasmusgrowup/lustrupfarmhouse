@@ -19,6 +19,8 @@
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 
 //  Variables
+$orange: #ff470f;
+$earth: #B24C16;
 $sand: #F6F1EB;
 $wet-sand: #E8E3DC;
 $dark-sand: #D0C8B9;
@@ -64,7 +66,7 @@ body, .smooth-container { scroll-behavior: smooth; }
 @import "../../../Private/Styles/scss/columns";
 @import "../../../Private/Styles/scss/links";
 @import "../../../Private/Styles/scss/text";
-@import "../../../Private/Styles/scss/modal";
+//@import "../../../Private/Styles/scss/modal";
 @import "../../../Private/Styles/scss/anchor";
 @import "../../../Private/Styles/scss/section";
 @import "../../../Private/Styles/scss/animations";

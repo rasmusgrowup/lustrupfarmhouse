@@ -53,7 +53,7 @@ renderer = afx`
                     <div class="small-title">
                         {props.smallTitle}
                     </div>
-                    <div class="">
+                    <div class="big-title">
                         {props.title}
                     </div>
                     <div class="">
