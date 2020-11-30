@@ -18,7 +18,7 @@
                 <source>Administrér cookie-indstillinger</source>
             </trans-unit>
             <trans-unit id="languageTrans">
-                <source>Vælg sprog</source>
+                <source>Sprog</source>
             </trans-unit>
             <trans-unit id="selectLang">
                 <source>Vælg dit sprog</source>

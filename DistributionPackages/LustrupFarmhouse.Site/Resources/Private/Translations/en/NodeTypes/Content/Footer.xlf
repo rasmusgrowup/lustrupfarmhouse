@@ -23,8 +23,8 @@
                 <target xml:lang="en" state="translated">Manage Cookies</target>
             </trans-unit>
             <trans-unit id="languageTrans">
-                <source>Vælg sprog</source>
-                <target xml:lang="en" state="translated">Change language</target>
+                <source>Sprog</source>
+                <target xml:lang="en" state="translated">Language</target>
             </trans-unit>
             <trans-unit id="selectLang">
                 <source>Vælg dit sprog</source>

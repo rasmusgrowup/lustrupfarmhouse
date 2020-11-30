@@ -23,8 +23,8 @@
                 <target xml:lang="de" state="translated">Cookie-Einstellungen</target>
             </trans-unit>
             <trans-unit id="languageTrans">
-                <source>Vælg sprog</source>
-                <target xml:lang="de" state="translated">Sprachauswahl</target>
+                <source>Sprog</source>
+                <target xml:lang="de" state="translated">Sprache</target>
             </trans-unit>
             <trans-unit id="selectLang">
                 <source>Vælg dit sprog</source>
