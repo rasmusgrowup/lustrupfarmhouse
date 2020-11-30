@@ -59,7 +59,9 @@ $column-content-width: clamp(320px, 25vw, 600px);
 $transition: 1s cubic-bezier(0.83, 0, 0.17, 1);
 $transition-delay: .1s;
 
-body, .smooth-container { scroll-behavior: smooth; }
+strong {
+    color: inherit !important;
+}
 
 @import "../../../Private/Styles/scss/header";
 @import "../../../Private/Styles/scss/fonts";
