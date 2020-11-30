@@ -132,9 +132,10 @@
                     align-items: center;
                     color: $black;
                     display: flex;
+                    float: right;
                     font-size: .8em;
                     font-weight: 600;
-                    margin: 0 auto;
+                    //margin: 0 auto;
                     padding: 0;
                     text-transform: uppercase;
 
@@ -372,7 +373,7 @@
             .options {
                 .language-selector, .booking-cta {
                     display: inline-block;
-                    padding-left: 15px;
+                    //padding-left: 15px;
                 }
             }
         }
@@ -443,7 +444,7 @@
     right: 1em;
 
     @media only screen and (min-width: $desktop) {
-        bottom: 60px;
+        bottom: 30px;
         right: 60px;
     }
 
