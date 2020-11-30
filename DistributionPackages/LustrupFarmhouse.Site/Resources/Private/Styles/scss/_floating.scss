@@ -18,9 +18,11 @@
 
         p {
             font-family: 'Roboto', sans-serif;
-            font-size: 1em;
-            font-weight: 600;
-            letter-spacing: 5px;
+            letter-spacing: .5em !important;
+            font-size: .8em !important;
+            font-weight: 400 !important;
+            margin-bottom: 1em !important;
+            text-transform: uppercase;
         }
     }
 
