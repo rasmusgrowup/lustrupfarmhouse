@@ -63,8 +63,8 @@ animateIn.forEach(function (elem) {
     scrollTrigger: {
       trigger: elem,
       toggleActions: "play none play reverse",
-      //markers: true,
-      start: 'top bottom'
+      markers: true,
+      start: '-50 bottom'
     },
     y: 100,
     //scaleY: 1.5,
