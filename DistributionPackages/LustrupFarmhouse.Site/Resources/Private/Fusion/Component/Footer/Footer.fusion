@@ -52,7 +52,7 @@ prototype(LustrupFarmhouse.Site:Component.Footer) < prototype(Neos.Neos:ContentC
                 <ul>
                     <li>&copy; {props.year}  Lustrup Farmhouse I/s</li>
                     <li><a href="/terms">{props.termsTrans}</a></li>
-                    <li><a href="#">{props.cookieTrans}</a></li>
+                    <!--<li><a href="#">{props.cookieTrans}</a></li>-->
                     <li>
                         <div class="language-selector">
                             <button type="button" name="button" id="openLanguageMenu">{props.languageTrans}</button>

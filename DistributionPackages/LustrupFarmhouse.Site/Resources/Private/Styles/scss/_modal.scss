@@ -40,6 +40,7 @@
                         color: $black;
                         font-size: 1.5em;
                         font-weight: 400;
+                        text-decoration: none;
 
                         &:hover {
                             color: $orange;
@@ -69,7 +70,7 @@
             .close-modal:hover,
             .close-modal:focus {
               color: black;
-              text-decoration: none;
+              text-decoration: none !important;
               cursor: pointer;
             }
         }
@@ -78,14 +79,15 @@
     #openLanguageMenu {
         background-color: transparent;
         border: none;
-        color: $black;
+        //color: $black;
         font-family: $TOMMY-font;
         font-weight: 500;
-        transition: $transition;
+        //transition: $transition;
 
         &:hover {
+            color: $orange;
             cursor: pointer;
-            text-decoration: underline;
+            //text-decoration: underline;
         }
     }
 }
