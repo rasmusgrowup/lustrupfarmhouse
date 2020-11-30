@@ -57,6 +57,10 @@
 
             &:hover {
                 cursor: pointer;
+
+                span, .navigation-btn {
+                    color: $orange;
+                }
             }
 
             div {
@@ -79,15 +83,26 @@
 
             .navigation-btn-text {
                 display: block;
-                height: 20px;
+                height: 16px;
                 left: 40px;
                 overflow: hidden;
                 position: absolute;
+
+                @media only screen and (min-width: $desktop) {
+                    height: 20px;
+                }
+
                 span {
                     display: block;
+                    font-size: 10px;
+                    font-weight: 600;
                     transform: translateY(0);
                     transition: $transition;
                     transition-timing-function: $easing;
+
+                    @media only screen and (min-width: $desktop) {
+                        font-size: 1em;
+                    }
                 }
             }
         }
@@ -121,10 +136,15 @@
                 a {
                     display: inline-block;
                     color: $black;
+                    font-size: 10px;
                     font-weight: 700;
                     line-height: 1.75;
                     //margin-top: 1em;
                     transition: .25s;
+
+                    @media only screen and (min-width: $desktop) {
+                        font-size: 1em;
+                    }
 
                     &:after {
                         background-color: $black;

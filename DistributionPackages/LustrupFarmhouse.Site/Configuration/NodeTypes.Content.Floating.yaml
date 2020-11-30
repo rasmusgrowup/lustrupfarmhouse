@@ -6,7 +6,29 @@
     icon: icon-header
     position: 400
     inlineEditable: true
+    inspector:
+      groups:
+        link:
+          label: 'Link'
+          icon: external-link-alt
   properties:
+    label:
+      ui:
+        reloadIfChanged: true
+        inline:
+          editorOptions:
+            placeholder: '<p>Enter link...</p>'
+            hyphens: true
+      options:
+        silhouette: text.free
+    link:
+      type: string
+      ui:
+        reloadIfChanged: true
+        label: 'Link target'
+        inspector:
+          group: link
+          editor: Neos.Neos/Inspector/Editors/LinkEditor
     title:
       ui:
         inline:

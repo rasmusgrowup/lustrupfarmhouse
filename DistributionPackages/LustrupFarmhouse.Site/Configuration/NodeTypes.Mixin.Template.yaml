@@ -29,12 +29,16 @@
                 label: 'Light yellow'
               '#F2F8F8':
                 label: 'Light Turqouise'
+              '#c1ae92':
+                label: 'Warm Sand'
               '#E8E3DC':
                 label: 'Wet Sand'
               '#D0C8B9':
                 label: 'Dark Sand'
               '#DEE8EB':
                 label: 'Light Blue'
+              '#8ab1bd':
+                label: 'Spring Blue'
               '#3C4445':
                 label: 'Winter Blue'
               '#292929':

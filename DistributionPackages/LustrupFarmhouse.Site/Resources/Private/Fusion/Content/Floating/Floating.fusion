@@ -5,11 +5,20 @@ prototype(LustrupFarmhouse.Site:Content.Floating) < prototype(Neos.Neos:ContentC
     subtitle = Neos.Neos:Editable {
         property = 'subtitle'
     }
+    label = Neos.Neos:Editable {
+        property = 'label'
+    }
+    link = ${q(node).property('link')}
+    linkTarget = ${q(node).property('linkTarget') ? '_blank' : '_self'}
+    renderAsLink = ${site.context.inBackend ? false : true}
 
     renderer = afx`
     <div class="floating-header">
         <div class="floating-sub-headline">{props.subtitle}</div>
         <div class="floating-headline">{props.title}</div>
+        <div class="floating-link">
+            <Carbon.Link:Link link={props.link} additionalClass="reg-button">{props.label}</Carbon.Link:Link>
+        </div>
     </div>
     `
 }

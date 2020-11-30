@@ -3,16 +3,18 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
 
     div {
-        p {
+        p, h1, h2, h3, h4, h5 {
             color: white;
-            text-align: center;
             line-height: 1;
+            text-align: center;
         }
     }
 
     .floating-sub-headline {
+        margin-bottom: 1em;
 
         p {
             font-family: 'Roboto', sans-serif;
@@ -25,9 +27,55 @@
     .floating-headline  {
 
         p {
-            font-size: 5em;
+            font-size: 3em;
             font-weight: 700;
             font-family: 'MADE-MIRAGE';
+
+            @media only screen and (min-width: $desktop) {
+                font-size: 5em;
+            }
+        }
+    }
+
+    .floating-link {
+        margin: 1em auto;
+    }
+
+    a {
+        display: table;
+        color: white;
+        font-weight: 700;
+        margin: 0 auto;
+        transition: .25s;
+
+        &:after {
+            background-color: white;
+            display: block;
+            content: '';
+            height: 2px;
+            width: 100%;
+            transition: .25s;
+        }
+
+        p {
+            color: white;
+            transition: .25s;
+        }
+
+        &:hover {
+
+            p {
+                color: $orange;
+                transition: .25s;
+            }
+
+                &:after {
+                background-color: $orange;
+                display: block;
+                content: '';
+                height: 2px;
+                width: 100%;
+            }
         }
     }
 }
