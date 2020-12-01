@@ -33,7 +33,7 @@ prototype(LustrupFarmhouse.Site:Component.Footer) < prototype(Neos.Neos:ContentC
                 <div class="footer-address">
                     <header>{props.addressTrans}</header>
                     <ul>
-                        <li>Svengesvej 19</li>
+                        <li>Strengevej 49</li>
                         <li>DK-6760 Ribe</li>
                         <li>Denmark</li>
                         <li>CVR-nr.  DK-39248999</li>
@@ -52,6 +52,7 @@ prototype(LustrupFarmhouse.Site:Component.Footer) < prototype(Neos.Neos:ContentC
                 <ul>
                     <li>&copy; {props.year}  Lustrup Farmhouse I/s</li>
                     <li><a href="/terms">{props.termsTrans}</a></li>
+                    <li><a href="https://growupstudio.dk">Webdesign by Growup</a></li>
                     <!--<li><a href="#">{props.cookieTrans}</a></li>-->
 <!--                    <li>
                         <div class="language-selector">
