@@ -14,22 +14,10 @@ Carbon:
         # Asset files who get's loaded in live and backend view
         General:
           Head:
-            - head.css
+            - head.css[inline]
             - main.css
             - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js
             - https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js
           Body:
             - main.js
             - lazysizes.min.js
-      ##
-      # Sitegeist.Lazybones required lazysizes, we recommend to include lazysizes javascript
-      # from https://github.com/aFarkas/lazysizes into your own fe-build and remove this section
-      ##
-      #'bb_Sitegeist.Lazybones':
-      #  Package: 'Sitegeist.Lazybones'
-      #  Path:
-      #    File:
-      #      JS: 'Public/JavaScript'
-      #  General:
-      #    Body:
-      #      - lazysizes.min.js
