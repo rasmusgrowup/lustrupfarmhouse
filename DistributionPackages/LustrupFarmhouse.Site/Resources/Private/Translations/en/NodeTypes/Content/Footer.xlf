@@ -18,6 +18,10 @@
                 <source>Vilkår og betingelser</source>
                 <target xml:lang="en" state="translated">Terms and conditions</target>
             </trans-unit>
+            <trans-unit id="termsLinkTrans">
+                <source>/terms</source>
+                <target xml:lang="de" state="translated">/de/terms</target>
+            </trans-unit>
             <trans-unit id="cookieTrans">
                 <source>Administrér cookie-indstillinger</source>
                 <target xml:lang="en" state="translated">Manage Cookies</target>

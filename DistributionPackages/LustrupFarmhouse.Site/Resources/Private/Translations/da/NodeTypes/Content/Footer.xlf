@@ -14,6 +14,9 @@
             <trans-unit id="termsTrans">
                 <source>Vilkår og betingelser</source>
             </trans-unit>
+            <trans-unit id="termsLinkTrans">
+                <source>/terms</source>
+            </trans-unit>
             <trans-unit id="cookieTrans">
                 <source>Administrér cookie-indstillinger</source>
             </trans-unit>

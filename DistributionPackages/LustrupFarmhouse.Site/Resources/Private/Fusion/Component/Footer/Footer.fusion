@@ -5,6 +5,7 @@ prototype(LustrupFarmhouse.Site:Component.Footer) < prototype(Neos.Neos:ContentC
     addressTrans = ${I18n.translate('LustrupFarmhouse.Site:NodeTypes.Content.Footer:addressTrans')}
     contactTrans = ${I18n.translate('LustrupFarmhouse.Site:NodeTypes.Content.Footer:contactTrans')}
     termsTrans = ${I18n.translate('LustrupFarmhouse.Site:NodeTypes.Content.Footer:termsTrans')}
+    termsLinkTrans = ${I18n.translate('LustrupFarmhouse.Site:NodeTypes.Content.Footer:termsLinkTrans')}
     cookieTrans = ${I18n.translate('LustrupFarmhouse.Site:NodeTypes.Content.Footer:cookieTrans')}
     languageTrans = ${I18n.translate('LustrupFarmhouse.Site:NodeTypes.Content.Footer:languageTrans')}
     selectLang = ${I18n.translate('LustrupFarmhouse.Site:NodeTypes.Content.Footer:selectLang')}
@@ -51,7 +52,7 @@ prototype(LustrupFarmhouse.Site:Component.Footer) < prototype(Neos.Neos:ContentC
             <div class="footer-copyright">
                 <ul>
                     <li>&copy; {props.year}  Lustrup Farmhouse I/s</li>
-                    <li><a href="/terms">{props.termsTrans}</a></li>
+                    <li><a href={props.termsLinkTrans}>{props.termsTrans}</a></li>
                     <li><a href="https://growupstudio.dk">Webdesign by Growup</a></li>
                     <!--<li><a href="#">{props.cookieTrans}</a></li>-->
 <!--                    <li>
