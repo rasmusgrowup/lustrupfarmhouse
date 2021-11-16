@@ -26,7 +26,7 @@ prototype(LustrupFarmhouse.Site:Component.Header) < prototype(Neos.Fusion:Compon
     }
 
     logoUri = Neos.Fusion:ResourceUri {
-    path = 'resource://LustrupFarmhouse.Site/Public/Frontend/assets/Logo.png'
+    path = 'resource://LustrupFarmhouse.Site/Public/Frontend/assets/Logo_2021.png'
     }
 
     imageUri = Neos.Fusion:ResourceUri {
