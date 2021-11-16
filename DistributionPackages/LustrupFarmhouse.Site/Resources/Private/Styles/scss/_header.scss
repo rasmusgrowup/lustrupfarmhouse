@@ -264,7 +264,7 @@
         //transition-timing-function: $easing;
 
         .navigation-content {
-            left: 5vw;
+            left: 4rem;
             top: 40%;
             position: absolute;
             transform: translateY(-50%);
@@ -274,7 +274,7 @@
                 li {
                     overflow: hidden;
                     a {
-                        font-size: clamp(35px, 6vw, 60px);
+                        font-size: clamp(35px, 4vw, 80px);
                         font-weight: 700;
                     }
                 }
@@ -292,8 +292,8 @@
         .social-links {
             display: flex;
             position: absolute;
-            bottom: 5vw;
-            left: 5vw;
+            bottom: 4rem;
+            left: 4rem;
 
             a {
                 align-items: center;
@@ -379,7 +379,7 @@
                 top: 0;
                 position: absolute;
                 //transform: translateY(-50%);
-                width: 50vw;
+                width: 57vw;
                 z-index: 1;
 
                 img {

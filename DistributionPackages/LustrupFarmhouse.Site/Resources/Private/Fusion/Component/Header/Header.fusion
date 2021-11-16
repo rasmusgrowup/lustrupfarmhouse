@@ -26,7 +26,7 @@ prototype(LustrupFarmhouse.Site:Component.Header) < prototype(Neos.Fusion:Compon
     }
 
     logoUri = Neos.Fusion:ResourceUri {
-    path = 'resource://LustrupFarmhouse.Site/Public/Frontend/assets/Lustrup-logo.svg'
+    path = 'resource://LustrupFarmhouse.Site/Public/Frontend/assets/Logo.png'
     }
 
     imageUri = Neos.Fusion:ResourceUri {
@@ -55,11 +55,7 @@ prototype(LustrupFarmhouse.Site:Component.Header) < prototype(Neos.Fusion:Compon
 
     renderer = afx`
         <header class="main-header" id="main-header" data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-<!--
-            <div class="info-bar">
-                Covid-19 information: we take every precaution to ensure you have a safe stay
-            </div>
--->
+
             <div class="menu">
                 <div class="navigation-content" id="menu">
                     <LustrupFarmhouse.Site:Component.Header.MenuItemsRenderer items={props.menuItems} />
